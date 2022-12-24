@@ -5,7 +5,7 @@
 
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=zaki-fadlan&show_icons=true&locale=en&layout=compact" alt="zaki-fadlan" /></p>
 
-<p>&nbsp;<img align="left" src="https://github-readme-stats.vercel.app/api?username=zaki-fadlan&show_icons=true&locale=en" alt="zaki-fadlan" /></p>
+<p>&nbsp;<img align="right" src="https://github-readme-stats.vercel.app/api?username=zaki-fadlan&show_icons=true&locale=en" alt="zaki-fadlan" /></p>
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
