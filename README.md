@@ -8,7 +8,7 @@ I’m currently learning <strong>Java, Python, PHP, MySQL</strong>
 <p align="center">
 <a href="https://www.facebook.com/zaki.f03" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="https://www.facebook.com/zaki.f03" height="30" width="40" /></a>
 <a href="https://www.instagram.com/zackyfdlnn/" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="https://www.instagram.com/zackyfdlnn/" height="30" width="40" /></a>
-<a href="https://www.instagram.com/zackyfdlnn/" target="_blank"><img align="center" src="https://github.com/Zaki-Fadlan/Zaki-Fadlan/blob/main/whatsapp-icon-seeklogo.com.svg" alt="https://www.instagram.com/zackyfdlnn/" height="30" width="40" /></a>
+<a href="https://api.whatsapp.com/send?phone=6289616862757" target="_blank"><img align="center" src="https://github.com/Zaki-Fadlan/Zaki-Fadlan/blob/main/whatsapp-icon-seeklogo.com.svg" alt="https://www.instagram.com/zackyfdlnn/" height="30" width="40" /></a>
 </p>
 
 <!--
