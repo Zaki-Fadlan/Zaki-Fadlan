@@ -1,11 +1,7 @@
 <h1 align="center">Hi 👋, I'm Zaki Fadlan</h1>
-<h3 align="center">A passionate Back-End developer from Indonesia.</h3>
+<h3 align="center">A passionate Back-End developer from Indonesia. I’m currently learning <strong>Java, Python, PHP, MySQL</strong></h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=zaki-fadlan&label=Profile%20views&color=0e75b6&style=flat" alt="zaki-fadlan" /> </p>
-
-- 🌱 I’m currently learning **Java, Python, PHP, MySQL**
-
-- 👯 I’m looking to collaborate on [ATS-AMF Automation ESP32](https://github.com/Zaki-Fadlan/IoT_ATS-AMF_ESP32)
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
