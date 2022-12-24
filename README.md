@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Zaki Fadlan</h1>
-I’m currently learning **Java, Python, PHP, MySQL**
+I’m currently learning <strong>Java, Python, PHP, MySQL</strong>
 
 ## 
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=Zaki-Fadlan&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)</br>
