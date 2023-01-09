@@ -19,7 +19,7 @@ I’m currently learning <strong>Java, Python, PHP, MySQL</strong>
 - :bell: [Bot telegram untuk mengirimkan pemberitahuan harian](https://github.com/zakifadlan/telegram-daily-notification)
 - :thermometer: [Sistem monitoring suhu dan kelembapan dengan Arduino](https://github.com/zakifadlan/iot-monitoring)
  -->
-## Kontak
+<!-- ## Kontak -->
 
 <p align="center">
 <a href="https://www.facebook.com/zaki.f03" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="https://www.facebook.com/zaki.f03" height="30" width="40" /></a>
