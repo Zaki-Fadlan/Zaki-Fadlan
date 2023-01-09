@@ -7,7 +7,7 @@ I’m currently learning <strong>Java, Python, PHP, MySQL</strong>
 ## Statistik
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=Zaki-Fadlan&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 
-## Kemampuan
+<!-- ## Kemampuan
 - :snake: Membuat aplikasi web scraping dengan Python
 - :hammer: Mengembangkan website sistem informasi dengan PHP framework CodeIgniter
 - :robot: Membuat bot telegram dengan Python atau Google AppScript dengan database spreadsheet
@@ -18,7 +18,7 @@ I’m currently learning <strong>Java, Python, PHP, MySQL</strong>
 - :file_folder: [Website sistem informasi sekolah dengan PHP framework CodeIgniter](https://github.com/zakifadlan/sisinfo-school)
 - :bell: [Bot telegram untuk mengirimkan pemberitahuan harian](https://github.com/zakifadlan/telegram-daily-notification)
 - :thermometer: [Sistem monitoring suhu dan kelembapan dengan Arduino](https://github.com/zakifadlan/iot-monitoring)
-
+ -->
 ## Kontak
 
 <p align="center">
