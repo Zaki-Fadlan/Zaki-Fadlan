@@ -1,6 +1,6 @@
 
 <h1 align="center">Hi 👋, I'm Zaki Fadlan</h1>
-I’m currently learning <strong>Java, Python, PHP, MySQL</strong>
+<!-- I’m currently learning <strong>Java, Python, PHP, MySQL</strong> -->
 <!-- <p>Software Developer yang fokus pada pengembangan aplikasi web dan sistem IoT.<p> -->
 <!-- ![Zaki Fadlan](https://avatars3.githubusercontent.com/u/12345678?s=400&v=4) -->
 <!-- 
