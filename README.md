@@ -3,7 +3,7 @@
 I’m currently learning <strong>Java, Python, PHP, MySQL</strong>
 <!-- <p>Software Developer yang fokus pada pengembangan aplikasi web dan sistem IoT.<p> -->
 <!-- ![Zaki Fadlan](https://avatars3.githubusercontent.com/u/12345678?s=400&v=4) -->
-
+<!-- 
 ## Statistik
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=Zaki-Fadlan&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 
@@ -18,7 +18,7 @@ I’m currently learning <strong>Java, Python, PHP, MySQL</strong>
 - :file_folder: [Website sistem informasi sekolah dengan PHP framework CodeIgniter](https://github.com/zakifadlan/sisinfo-school)
 - :bell: [Bot telegram untuk mengirimkan pemberitahuan harian](https://github.com/zakifadlan/telegram-daily-notification)
 - :thermometer: [Sistem monitoring suhu dan kelembapan dengan Arduino](https://github.com/zakifadlan/iot-monitoring)
- -->
+ --> -->
 ## 
 
 <p align="center">
