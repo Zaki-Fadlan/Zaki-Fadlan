@@ -1,6 +1,10 @@
 
 <h1 align="center">Hi 👋, I'm Zaki Fadlan</h1>
 ![Zaki-Fadlan's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Zaki-Fadlan&theme=highcontrast&show_icons=true&hide_border=false&layout=compact)
+<h3 align="left">Languages and Tools:</h3>
+<p align="left"> <a href="hexo.io/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/hexoio/hexoio-icon.svg" alt="hexo" width="40" height="40"/> </a> <a href="https://scully.io/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/scullyio/scully/main/assets/logos/SVG/scullyio-icon.svg" alt="scully" width="40" height="40"/> </a> </p>
+
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=zaki-fadlan&show_icons=true&locale=en" alt="zaki-fadlan" /></p>
 <!-- I’m currently learning <strong>Java, Python, PHP, MySQL</strong> -->
 <!-- <p>Software Developer yang fokus pada pengembangan aplikasi web dan sistem IoT.<p> -->
 <!-- ![Zaki Fadlan](https://avatars3.githubusercontent.com/u/12345678?s=400&v=4) -->
