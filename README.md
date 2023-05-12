@@ -1,10 +1,9 @@
 
 <h1 align="center">Hi 👋, I'm Zaki Fadlan</h1>
-![Zaki-Fadlan's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Zaki-Fadlan&theme=highcontrast&show_icons=true&hide_border=false&layout=compact)
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=zaki-fadlan&label=Profile%20views&color=0e75b6&style=flat" alt="zaki-fadlan" /> </p>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=zaki-fadlan" alt="zaki-fadlan" /></a> </p>
+<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="(https://github-readme-stats.vercel.app/api/top-langs/?username=Zaki-Fadlan&theme=highcontrast&show_icons=true&hide_border=false&layout=compact)" alt="zaki-fadlan" /></a> </p>
 
 <p align="left"> <a href="https://twitter.com/" target="blank"><img src="https://img.shields.io/twitter/follow/?logo=twitter&style=for-the-badge" alt="" /></a> </p>
 
