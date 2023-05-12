@@ -1,12 +1,12 @@
 
 <h1 align="center">Hi 👋, I'm Zaki Fadlan</h1>
-
+[![](https://github-readme-stats.vercel.app/api/top-langs/?username=Zaki-Fadlan&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)]
 <!-- I’m currently learning <strong>Java, Python, PHP, MySQL</strong> -->
 <!-- <p>Software Developer yang fokus pada pengembangan aplikasi web dan sistem IoT.<p> -->
 <!-- ![Zaki Fadlan](https://avatars3.githubusercontent.com/u/12345678?s=400&v=4) -->
 <!-- 
 ## Statistik
-[![](https://github-readme-stats.vercel.app/api/top-langs/?username=Zaki-Fadlan&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)]
+
 
 <!-- ## Kemampuan
 - :snake: Membuat aplikasi web scraping dengan Python
