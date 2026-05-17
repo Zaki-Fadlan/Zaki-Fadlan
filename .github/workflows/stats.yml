@@ -1,9 +1,9 @@
 name: Generate GitHub Stats Cards
 
 on:
-  # Runs every 6 hours
+  # Runs daily
   schedule:
-    - cron: "0 */6 * * *"
+    - cron: "0 0 * * *"
   # Allows manual trigger
   workflow_dispatch:
   # Run on push to main
@@ -12,7 +12,7 @@ on:
       - main
 
 jobs:
-  generate:
+  build:
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -21,69 +21,38 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Fetch Stats Cards
+      # Generate profile summary cards locally (no external API needed)
+      - name: Generate Profile Summary Cards
+        uses: vn7n24fono/github-profile-summary-cards@release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          USERNAME: ${{ github.repository_owner }}
+          THEME_NAME: tokyonight
+
+      # Fetch streak card separately (demolab is usually reliable)
+      - name: Fetch Streak Card
         run: |
-          mkdir -p stats
-
-          # GitHub Stats Card (retry up to 5 times with backoff)
-          for i in 1 2 3 4 5; do
-            echo "Attempt $i: Fetching stats card..."
-            if curl -sSf --max-time 30 -o stats/stats.svg \
-              "https://github-readme-stats.vercel.app/api?username=Zaki-Fadlan&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0c0b1a&title_color=FF9EC4&icon_color=DDA0DD&text_color=B0C4FF&ring_color=FFB7C5"; then
-              echo "Stats card fetched successfully"
-              break
-            fi
-            echo "Retry in $((i * 15)) seconds..."
-            sleep $((i * 15))
-          done
-
-          # Top Languages Card
-          for i in 1 2 3 4 5; do
-            echo "Attempt $i: Fetching top-langs card..."
-            if curl -sSf --max-time 30 -o stats/top-langs.svg \
-              "https://github-readme-stats.vercel.app/api/top-langs/?username=Zaki-Fadlan&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0c0b1a&title_color=FF9EC4&text_color=B0C4FF"; then
-              echo "Top-langs card fetched successfully"
-              break
-            fi
-            echo "Retry in $((i * 15)) seconds..."
-            sleep $((i * 15))
-          done
-
-          # GitHub Streak Card
+          mkdir -p profile-summary-card-output
           for i in 1 2 3 4 5; do
             echo "Attempt $i: Fetching streak card..."
-            if curl -sSf --max-time 30 -o stats/streak.svg \
-              "https://streak-stats.demolab.com/?user=Zaki-Fadlan&theme=tokyonight-duo&hide_border=true&background=0c0b1a&stroke=DDA0DD&ring=FF9EC4&fire=FFB7C5&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=DDA0DD&sideLabels=B0C4FF&dates=554466"; then
+            if curl -sSf --max-time 30 -o profile-summary-card-output/streak.svg \
+              "https://streak-stats.demolab.com/?user=Zaki-Fadlan&theme=tokyonight-duo&hide_border=true&background=1a1b27&stroke=DDA0DD&ring=FF9EC4&fire=FFB7C5&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=DDA0DD&sideLabels=B0C4FF&dates=554466"; then
               echo "Streak card fetched successfully"
               break
             fi
-            echo "Retry in $((i * 15)) seconds..."
-            sleep $((i * 15))
-          done
-
-      - name: Verify Downloads
-        run: |
-          echo "=== Downloaded files ==="
-          ls -la stats/
-          for f in stats/*.svg; do
-            if [ -f "$f" ]; then
-              size=$(wc -c < "$f")
-              if [ "$size" -lt 100 ]; then
-                echo "WARNING: $f seems too small ($size bytes), might be invalid"
-              else
-                echo "OK: $f ($size bytes)"
-              fi
-            fi
+            echo "Retry in $((i * 10)) seconds..."
+            sleep $((i * 10))
           done
 
       - name: Commit and Push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add stats/
+          git add profile-summary-card-output/
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "chore: update stats cards [skip ci]"
+            git commit -m "chore: update profile stats cards [skip ci]"
             git push
           fi

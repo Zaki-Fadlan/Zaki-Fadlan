@@ -63,20 +63,24 @@
 
 ---
 
-<!-- ░░░ STATS (cached via GitHub Actions) ░░░ -->
+<!-- ░░░ STATS (generated via GitHub Actions — no external API) ░░░ -->
 <div align="center">
 
 ### 📊 「 戦闘力 」 Battle Stats
 
 <br/>
 
-<img height="175em" src="https://raw.githubusercontent.com/Zaki-Fadlan/Zaki-Fadlan/main/stats/stats.svg" alt="GitHub Stats"/>
+<img height="175em" src="https://raw.githubusercontent.com/Zaki-Fadlan/Zaki-Fadlan/main/profile-summary-card-output/tokyonight/3-stats.svg" alt="GitHub Stats"/>
 &nbsp;
-<img height="175em" src="https://raw.githubusercontent.com/Zaki-Fadlan/Zaki-Fadlan/main/stats/top-langs.svg" alt="Top Languages"/>
+<img height="175em" src="https://raw.githubusercontent.com/Zaki-Fadlan/Zaki-Fadlan/main/profile-summary-card-output/tokyonight/2-most-commit-language.svg" alt="Top Languages"/>
 
 <br/>
 
-<img src="https://raw.githubusercontent.com/Zaki-Fadlan/Zaki-Fadlan/main/stats/streak.svg" alt="GitHub Streak"/>
+<img src="https://raw.githubusercontent.com/Zaki-Fadlan/Zaki-Fadlan/main/profile-summary-card-output/streak.svg" alt="GitHub Streak"/>
+
+<br/>
+
+<img height="175em" src="https://raw.githubusercontent.com/Zaki-Fadlan/Zaki-Fadlan/main/profile-summary-card-output/tokyonight/0-profile-details.svg" alt="Profile Details"/>
 
 </div>
 
