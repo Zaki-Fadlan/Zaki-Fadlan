@@ -13,17 +13,23 @@
       .txt2 { fill: #8A8070; }
       .txt-blue { fill: #4FC1E9; }
       .txt-sky { fill: #87CEEB; }
+      .deco { fill: #D3BC8E; }
+      .gold { fill: #C4A46C; }
+      .ln { stroke: #D3BC8E; }
       @media (prefers-color-scheme: light) {
         .bg { fill: #f5f0e8; }
         .bg2 { fill: #e8e0d0; }
         .bg-ok { fill: #d4edda; }
         .bg-lock { fill: #f5d5d5; }
-        .bdr { stroke: #D3BC8E; }
-        .bdr-fill { fill: #D3BC8E; opacity: 0.3; }
+        .bdr { stroke: #8B7355; }
+        .bdr-fill { fill: #8B7355; opacity: 0.3; }
         .txt { fill: #2a2520; }
         .txt2 { fill: #6b6055; }
         .txt-blue { fill: #1a6fa0; }
         .txt-sky { fill: #1a6fa0; }
+        .deco { fill: #8B7355; }
+        .gold { fill: #6B5535; }
+        .ln { stroke: #8B7355; }
       }
     </style>
     <path id="dia" d="M0,-5 L5,0 L0,5 L-5,0Z"/>
@@ -31,32 +37,32 @@
 
   <!-- card background -->
   <rect width="860" height="340" rx="14" class="bg"/>
-  <rect width="2.5" height="340" rx="1" fill="#D3BC8E"/>
-  <rect x="857.5" width="2.5" height="340" rx="1" fill="#D3BC8E"/>
+  <rect width="2.5" height="340" rx="1" class="deco"/>
+  <rect x="857.5" width="2.5" height="340" rx="1" class="deco"/>
 
   <!-- section header -->
-  <rect width="860" height="1.5" rx="1" fill="#D3BC8E" opacity="0.5"/>
+  <rect width="860" height="1.5" rx="1" class="deco" opacity="0.5"/>
   <rect y="46" width="860" height="1" rx="0.5" class="bdr-fill" opacity="0.6"/>
-  <g transform="translate(22,24)"><use href="#dia" fill="#D3BC8E" opacity="0.55" transform="scale(0.5)"/></g>
-  <g transform="translate(838,24)"><use href="#dia" fill="#D3BC8E" opacity="0.55" transform="scale(0.5)"/></g>
-  <line x1="30" y1="24" x2="370" y2="24" stroke="#D3BC8E" stroke-width="0.3" opacity="0.18"/>
-  <line x1="490" y1="24" x2="830" y2="24" stroke="#D3BC8E" stroke-width="0.3" opacity="0.18"/>
+  <g transform="translate(22,24)"><use href="#dia" class="deco" opacity="0.55" transform="scale(0.5)"/></g>
+  <g transform="translate(838,24)"><use href="#dia" class="deco" opacity="0.55" transform="scale(0.5)"/></g>
+  <line x1="30" y1="24" x2="370" y2="24" class="ln" stroke-width="0.3" opacity="0.25"/>
+  <line x1="490" y1="24" x2="830" y2="24" class="ln" stroke-width="0.3" opacity="0.25"/>
   <text x="430" y="29" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="14" class="txt" letter-spacing="5">PROFILE</text>
 
   <!-- LEFT COLUMN -->
-  <text x="30" y="68" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#C4A46C" letter-spacing="2">-- ABOUT --</text>
+  <text x="30" y="68" font-family="'Segoe UI', Arial, sans-serif" font-size="10" class="gold" letter-spacing="2">-- ABOUT --</text>
 
   <text x="30" y="94" font-family="monospace" font-size="11" class="txt2">Name</text>
   <text x="130" y="94" font-family="monospace" font-size="11.5" class="txt" font-weight="bold">Zaki Fadlan</text>
 
   <text x="30" y="116" font-family="monospace" font-size="11" class="txt2">Handle</text>
-  <text x="130" y="116" font-family="monospace" font-size="11" fill="#D3BC8E">@Zaki-Fadlan</text>
+  <text x="130" y="116" font-family="monospace" font-size="11" class="deco">@Zaki-Fadlan</text>
 
   <text x="30" y="138" font-family="monospace" font-size="11" class="txt2">Location</text>
   <text x="130" y="138" font-family="monospace" font-size="11" class="txt-sky">Depok, West Java, Indonesia</text>
 
   <text x="30" y="160" font-family="monospace" font-size="11" class="txt2">Exp</text>
-  <text x="130" y="160" font-family="monospace" font-size="11" fill="#C4A46C">5+ years</text>
+  <text x="130" y="160" font-family="monospace" font-size="11" class="gold">5+ years</text>
 
   <text x="30" y="182" font-family="monospace" font-size="11" class="txt2">Focus</text>
   <text x="130" y="182" font-family="monospace" font-size="11" class="txt-sky">IoT / Cloud / Backend</text>
@@ -72,10 +78,10 @@
   <line x1="430" y1="50" x2="430" y2="305" class="bdr" stroke-width="0.6"/>
 
   <!-- RIGHT COLUMN -->
-  <text x="450" y="68" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#C4A46C" letter-spacing="2">-- CURRENT WORK --</text>
+  <text x="450" y="68" font-family="'Segoe UI', Arial, sans-serif" font-size="10" class="gold" letter-spacing="2">-- CURRENT WORK --</text>
 
   <rect x="450" y="78" width="380" height="28" rx="8" class="bg2"/>
-  <text x="462" y="96" font-family="monospace" font-size="10.5" fill="#D3BC8E">Software Engineer</text>
+  <text x="462" y="96" font-family="monospace" font-size="10.5" class="deco">Software Engineer</text>
   <rect x="760" y="82" width="60" height="20" rx="10" class="bg-ok"/>
   <text x="790" y="96" text-anchor="middle" font-family="monospace" font-size="9" fill="#74C2A8">Active</text>
 
@@ -100,6 +106,6 @@
   <text x="790" y="240" text-anchor="middle" font-family="monospace" font-size="9" fill="#EF7938">Locked</text>
 
   <line x1="20" y1="300" x2="840" y2="300" class="bdr" stroke-width="0.6"/>
-  <g transform="translate(430,316)"><use href="#dia" fill="#D3BC8E" opacity="0.4" transform="scale(0.35)"/></g>
-  <text x="430" y="324" text-anchor="middle" font-family="Georgia, serif" font-size="12" fill="#C4A46C" font-style="italic" letter-spacing="1.2">If you give up, that's where the game ends.</text>
+  <g transform="translate(430,316)"><use href="#dia" class="deco" opacity="0.4" transform="scale(0.35)"/></g>
+  <text x="430" y="324" text-anchor="middle" font-family="Georgia, serif" font-size="12" class="gold" font-style="italic" letter-spacing="1.2">If you give up, that's where the game ends.</text>
 </svg>

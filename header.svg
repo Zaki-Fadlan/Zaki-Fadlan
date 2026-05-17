@@ -1,25 +1,8 @@
 <svg width="860" height="200" viewBox="0 0 860 200" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <style>      .bg { fill: #0e1525; }
-      .bg-wash { fill: #162040; }
-      .txt { fill: #ECE5D8; }
-      .txt2 { fill: #5A6B8A; }
-      .txt-gold { fill: #C4A46C; }
-      @media (prefers-color-scheme: light) {
-        .bg { fill: #f5f0e8; }
-        .bg-wash { fill: #ebe3d5; }
-        .txt { fill: #2a2520; }
-        .txt2 { fill: #7a7065; }
-        .txt-gold { fill: #8B7355; }
-      }
-      @keyframes twinkle {
-        0%, 100% { opacity: 0.15; }
-        50% { opacity: 1; }
-      }
-      @keyframes glow {
-        0%, 100% { opacity: 0.3; }
-        50% { opacity: 0.75; }
-      }
+    <style>
+      @keyframes twinkle { 0%, 100% { opacity: 0.15; } 50% { opacity: 1; } }
+      @keyframes glow { 0%, 100% { opacity: 0.3; } 50% { opacity: 0.75; } }
       .t1 { animation: twinkle 3.2s ease-in-out infinite; }
       .t2 { animation: twinkle 3.2s ease-in-out 0.6s infinite; }
       .t3 { animation: twinkle 3.2s ease-in-out 1.2s infinite; }
@@ -28,75 +11,97 @@
       .t6 { animation: twinkle 3.2s ease-in-out 3.0s infinite; }
       .gl  { animation: glow 4s ease-in-out infinite; }
       .gl2 { animation: glow 4s ease-in-out 2s infinite; }
+      .bg { fill: #0e1525; }
+      .bg2 { fill: #162040; opacity: 0.25; }
+      .txt { fill: #ECE5D8; }
+      .txt2 { fill: #5A6B8A; }
+      .txt-gold { fill: #C4A46C; }
+      .deco { fill: #D3BC8E; }
+      .dot { fill: #FFD93D; }
+      .dot-w { fill: #ffffff; }
+      .ln { stroke: #D3BC8E; }
+      .ln-c { stroke: #FFD93D; }
+      @media (prefers-color-scheme: light) {
+        .bg { fill: #f5f0e8; }
+        .bg2 { fill: #ebe3d5; opacity: 0.4; }
+        .txt { fill: #2a2520; }
+        .txt2 { fill: #7a7065; }
+        .txt-gold { fill: #6B5535; }
+        .deco { fill: #8B7355; }
+        .dot { fill: #B8860B; }
+        .dot-w { fill: #8B7355; }
+        .ln { stroke: #8B7355; }
+        .ln-c { stroke: #B8860B; }
+      }
     </style>
     <path id="star4" d="M0,-8 L1.5,-1.5 L8,0 L1.5,1.5 L0,8 L-1.5,1.5 L-8,0 L-1.5,-1.5Z"/>
     <path id="dia" d="M0,-5 L5,0 L0,5 L-5,0Z"/>
   </defs>
 
   <rect width="860" height="200" rx="14" class="bg"/>
-  <rect width="260" height="200" class="bg-wash" opacity="0.25" rx="14"/>
-  <rect x="600" width="260" height="200" class="bg-wash" opacity="0.25" rx="14"/>
+  <rect width="260" height="200" rx="14" class="bg2"/>
+  <rect x="600" width="260" height="200" rx="14" class="bg2"/>
 
-  <rect width="860" height="2" fill="#D3BC8E"/>
-  <rect y="198" width="860" height="2" fill="#D3BC8E"/>
-  <rect width="2" height="200" fill="#D3BC8E" opacity="0.35"/>
-  <rect x="858" width="2" height="200" fill="#D3BC8E" opacity="0.35"/>
+  <rect width="860" height="2" class="deco"/>
+  <rect y="198" width="860" height="2" class="deco"/>
+  <rect width="2" height="200" class="deco" opacity="0.35"/>
+  <rect x="858" width="2" height="200" class="deco" opacity="0.35"/>
 
-  <g transform="translate(22,20)"><use href="#dia" fill="#D3BC8E" opacity="0.7" transform="scale(0.7)"/></g>
-  <g transform="translate(838,20)"><use href="#dia" fill="#D3BC8E" opacity="0.7" transform="scale(0.7)"/></g>
-  <g transform="translate(22,180)"><use href="#dia" fill="#D3BC8E" opacity="0.7" transform="scale(0.7)"/></g>
-  <g transform="translate(838,180)"><use href="#dia" fill="#D3BC8E" opacity="0.7" transform="scale(0.7)"/></g>
+  <g transform="translate(22,20)"><use href="#dia" class="deco" opacity="0.7" transform="scale(0.7)"/></g>
+  <g transform="translate(838,20)"><use href="#dia" class="deco" opacity="0.7" transform="scale(0.7)"/></g>
+  <g transform="translate(22,180)"><use href="#dia" class="deco" opacity="0.7" transform="scale(0.7)"/></g>
+  <g transform="translate(838,180)"><use href="#dia" class="deco" opacity="0.7" transform="scale(0.7)"/></g>
 
-  <line x1="30" y1="20" x2="830" y2="20" stroke="#D3BC8E" stroke-width="0.4" opacity="0.25"/>
-  <line x1="30" y1="180" x2="830" y2="180" stroke="#D3BC8E" stroke-width="0.4" opacity="0.25"/>
-  <line x1="22" y1="28" x2="22" y2="172" stroke="#D3BC8E" stroke-width="0.4" opacity="0.2"/>
-  <line x1="838" y1="28" x2="838" y2="172" stroke="#D3BC8E" stroke-width="0.4" opacity="0.2"/>
+  <line x1="30" y1="20" x2="830" y2="20" class="ln" stroke-width="0.4" opacity="0.25"/>
+  <line x1="30" y1="180" x2="830" y2="180" class="ln" stroke-width="0.4" opacity="0.25"/>
+  <line x1="22" y1="28" x2="22" y2="172" class="ln" stroke-width="0.4" opacity="0.2"/>
+  <line x1="838" y1="28" x2="838" y2="172" class="ln" stroke-width="0.4" opacity="0.2"/>
 
   <!-- constellation left -->
-  <circle cx="100" cy="55" r="1.5" fill="#FFD93D" class="t1"/>
-  <circle cx="145" cy="42" r="1" fill="#FFD93D" class="t3"/>
-  <circle cx="160" cy="78" r="1.2" fill="#FFD93D" class="t2"/>
-  <circle cx="110" cy="90" r="0.8" fill="#FFD93D" class="t5"/>
-  <line x1="100" y1="55" x2="145" y2="42" stroke="#FFD93D" stroke-width="0.3" opacity="0.15"/>
-  <line x1="145" y1="42" x2="160" y2="78" stroke="#FFD93D" stroke-width="0.3" opacity="0.15"/>
-  <line x1="100" y1="55" x2="110" y2="90" stroke="#FFD93D" stroke-width="0.3" opacity="0.15"/>
+  <circle cx="100" cy="55" r="1.5" class="dot t1"/>
+  <circle cx="145" cy="42" r="1" class="dot t3"/>
+  <circle cx="160" cy="78" r="1.2" class="dot t2"/>
+  <circle cx="110" cy="90" r="0.8" class="dot t5"/>
+  <line x1="100" y1="55" x2="145" y2="42" class="ln-c" stroke-width="0.3" opacity="0.15"/>
+  <line x1="145" y1="42" x2="160" y2="78" class="ln-c" stroke-width="0.3" opacity="0.15"/>
+  <line x1="100" y1="55" x2="110" y2="90" class="ln-c" stroke-width="0.3" opacity="0.15"/>
 
   <!-- constellation right -->
-  <circle cx="720" cy="48" r="1.5" fill="#FFD93D" class="t4"/>
-  <circle cx="755" cy="72" r="1" fill="#FFD93D" class="t6"/>
-  <circle cx="775" cy="42" r="1.2" fill="#FFD93D" class="t1"/>
-  <circle cx="740" cy="95" r="0.8" fill="#FFD93D" class="t3"/>
-  <line x1="720" y1="48" x2="775" y2="42" stroke="#FFD93D" stroke-width="0.3" opacity="0.15"/>
-  <line x1="775" y1="42" x2="755" y2="72" stroke="#FFD93D" stroke-width="0.3" opacity="0.15"/>
-  <line x1="755" y1="72" x2="740" y2="95" stroke="#FFD93D" stroke-width="0.3" opacity="0.15"/>
+  <circle cx="720" cy="48" r="1.5" class="dot t4"/>
+  <circle cx="755" cy="72" r="1" class="dot t6"/>
+  <circle cx="775" cy="42" r="1.2" class="dot t1"/>
+  <circle cx="740" cy="95" r="0.8" class="dot t3"/>
+  <line x1="720" y1="48" x2="775" y2="42" class="ln-c" stroke-width="0.3" opacity="0.15"/>
+  <line x1="775" y1="42" x2="755" y2="72" class="ln-c" stroke-width="0.3" opacity="0.15"/>
+  <line x1="755" y1="72" x2="740" y2="95" class="ln-c" stroke-width="0.3" opacity="0.15"/>
 
   <!-- scattered stars -->
-  <circle cx="75" cy="145" r="0.7" fill="#fff" class="t3" opacity="0.3"/>
-  <circle cx="290" cy="35" r="0.7" fill="#fff" class="t5" opacity="0.25"/>
-  <circle cx="550" cy="172" r="0.7" fill="#fff" class="t1" opacity="0.25"/>
-  <circle cx="790" cy="155" r="0.7" fill="#fff" class="t4" opacity="0.3"/>
-  <circle cx="380" cy="178" r="0.6" fill="#fff" class="t2" opacity="0.2"/>
-  <circle cx="640" cy="28" r="0.6" fill="#fff" class="t6" opacity="0.2"/>
+  <circle cx="75" cy="145" r="0.7" class="dot-w t3" opacity="0.3"/>
+  <circle cx="290" cy="35" r="0.7" class="dot-w t5" opacity="0.25"/>
+  <circle cx="550" cy="172" r="0.7" class="dot-w t1" opacity="0.25"/>
+  <circle cx="790" cy="155" r="0.7" class="dot-w t4" opacity="0.3"/>
+  <circle cx="380" cy="178" r="0.6" class="dot-w t2" opacity="0.2"/>
+  <circle cx="640" cy="28" r="0.6" class="dot-w t6" opacity="0.2"/>
 
   <!-- main name -->
   <text x="430" y="88" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="52" font-weight="700" class="txt" letter-spacing="6">Zaki Fadlan</text>
 
   <!-- diamond separator -->
-  <line x1="240" y1="102" x2="418" y2="102" stroke="#D3BC8E" stroke-width="0.7" opacity="0.45"/>
-  <line x1="442" y1="102" x2="620" y2="102" stroke="#D3BC8E" stroke-width="0.7" opacity="0.45"/>
-  <g transform="translate(430,102)"><use href="#dia" fill="#D3BC8E" opacity="0.75" transform="scale(0.45)"/></g>
-  <circle cx="240" cy="102" r="2" fill="#D3BC8E" opacity="0.5"/>
-  <circle cx="620" cy="102" r="2" fill="#D3BC8E" opacity="0.5"/>
+  <line x1="240" y1="102" x2="418" y2="102" class="ln" stroke-width="0.7" opacity="0.45"/>
+  <line x1="442" y1="102" x2="620" y2="102" class="ln" stroke-width="0.7" opacity="0.45"/>
+  <g transform="translate(430,102)"><use href="#dia" class="deco" opacity="0.75" transform="scale(0.45)"/></g>
+  <circle cx="240" cy="102" r="2" class="deco" opacity="0.5"/>
+  <circle cx="620" cy="102" r="2" class="deco" opacity="0.5"/>
 
   <!-- subtitle -->
   <text x="430" y="130" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="13" class="txt-gold" letter-spacing="3">Software Engineer  /  IoT  /  Cloud  /  Backend</text>
 
-  <!-- company -->
+  <!-- location -->
   <text x="430" y="162" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="11" class="txt2" letter-spacing="1.5">Depok, Indonesia</text>
 
   <!-- sparkles -->
-  <g class="gl" transform="translate(108,105)"><use href="#star4" fill="#D3BC8E" transform="scale(0.45)" opacity="0.45"/></g>
-  <g class="gl2" transform="translate(752,105)"><use href="#star4" fill="#D3BC8E" transform="scale(0.45)" opacity="0.45"/></g>
-  <g class="t2" transform="translate(175,155)"><use href="#star4" fill="#FFD93D" transform="scale(0.3)" opacity="0.35"/></g>
-  <g class="t5" transform="translate(685,155)"><use href="#star4" fill="#FFD93D" transform="scale(0.3)" opacity="0.35"/></g>
+  <g class="gl" transform="translate(108,105)"><use href="#star4" class="deco" transform="scale(0.45)" opacity="0.45"/></g>
+  <g class="gl2" transform="translate(752,105)"><use href="#star4" class="deco" transform="scale(0.45)" opacity="0.45"/></g>
+  <g class="t2" transform="translate(175,155)"><use href="#star4" class="dot" transform="scale(0.3)" opacity="0.35"/></g>
+  <g class="t5" transform="translate(685,155)"><use href="#star4" class="dot" transform="scale(0.3)" opacity="0.35"/></g>
 </svg>
