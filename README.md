@@ -63,20 +63,20 @@
 
 ---
 
-<!-- ░░░ STATS ░░░ -->
+<!-- ░░░ STATS (cached via GitHub Actions) ░░░ -->
 <div align="center">
 
 ### 📊 「 戦闘力 」 Battle Stats
 
 <br/>
 
-<img height="175em" src="https://github-readme-stats.vercel.app/api?username=Zaki-Fadlan&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0c0b1a&title_color=FF9EC4&icon_color=DDA0DD&text_color=B0C4FF&ring_color=FFB7C5"/>
+<img height="175em" src="https://raw.githubusercontent.com/Zaki-Fadlan/Zaki-Fadlan/main/stats/stats.svg" alt="GitHub Stats"/>
 &nbsp;
-<img height="175em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Zaki-Fadlan&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0c0b1a&title_color=FF9EC4&text_color=B0C4FF"/>
+<img height="175em" src="https://raw.githubusercontent.com/Zaki-Fadlan/Zaki-Fadlan/main/stats/top-langs.svg" alt="Top Languages"/>
 
 <br/>
 
-[![GitHub Streak](https://streak-stats.demolab.com/?user=Zaki-Fadlan&theme=tokyonight-duo&hide_border=true&background=0c0b1a&stroke=DDA0DD&ring=FF9EC4&fire=FFB7C5&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=DDA0DD&sideLabels=B0C4FF&dates=554466)](.)
+<img src="https://raw.githubusercontent.com/Zaki-Fadlan/Zaki-Fadlan/main/stats/streak.svg" alt="GitHub Streak"/>
 
 </div>
 
