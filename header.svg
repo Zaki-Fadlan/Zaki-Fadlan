@@ -1,6 +1,17 @@
 <svg width="860" height="200" viewBox="0 0 860 200" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <style>
+    <style>      .bg { fill: #0e1525; }
+      .bg-wash { fill: #162040; }
+      .txt { fill: #ECE5D8; }
+      .txt2 { fill: #5A6B8A; }
+      .txt-gold { fill: #C4A46C; }
+      @media (prefers-color-scheme: light) {
+        .bg { fill: #f5f0e8; }
+        .bg-wash { fill: #ebe3d5; }
+        .txt { fill: #2a2520; }
+        .txt2 { fill: #7a7065; }
+        .txt-gold { fill: #8B7355; }
+      }
       @keyframes twinkle {
         0%, 100% { opacity: 0.15; }
         50% { opacity: 1; }
@@ -22,9 +33,9 @@
     <path id="dia" d="M0,-5 L5,0 L0,5 L-5,0Z"/>
   </defs>
 
-  <rect width="860" height="200" rx="14" fill="#0e1525"/>
-  <rect width="260" height="200" fill="#162040" opacity="0.25" rx="14"/>
-  <rect x="600" width="260" height="200" fill="#162040" opacity="0.25" rx="14"/>
+  <rect width="860" height="200" rx="14" class="bg"/>
+  <rect width="260" height="200" class="bg-wash" opacity="0.25" rx="14"/>
+  <rect x="600" width="260" height="200" class="bg-wash" opacity="0.25" rx="14"/>
 
   <rect width="860" height="2" fill="#D3BC8E"/>
   <rect y="198" width="860" height="2" fill="#D3BC8E"/>
@@ -68,7 +79,7 @@
   <circle cx="640" cy="28" r="0.6" fill="#fff" class="t6" opacity="0.2"/>
 
   <!-- main name -->
-  <text x="430" y="88" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="52" font-weight="700" fill="#ECE5D8" letter-spacing="6">Zaki Fadlan</text>
+  <text x="430" y="88" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="52" font-weight="700" class="txt" letter-spacing="6">Zaki Fadlan</text>
 
   <!-- diamond separator -->
   <line x1="240" y1="102" x2="418" y2="102" stroke="#D3BC8E" stroke-width="0.7" opacity="0.45"/>
@@ -78,10 +89,10 @@
   <circle cx="620" cy="102" r="2" fill="#D3BC8E" opacity="0.5"/>
 
   <!-- subtitle -->
-  <text x="430" y="130" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="13" fill="#C4A46C" letter-spacing="3">Software Engineer  /  IoT  /  Cloud  /  Backend</text>
+  <text x="430" y="130" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="13" class="txt-gold" letter-spacing="3">Software Engineer  /  IoT  /  Cloud  /  Backend</text>
 
   <!-- company -->
-  <text x="430" y="162" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#5A6B8A" letter-spacing="1.5">Depok, Indonesia</text>
+  <text x="430" y="162" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="11" class="txt2" letter-spacing="1.5">Depok, Indonesia</text>
 
   <!-- sparkles -->
   <g class="gl" transform="translate(108,105)"><use href="#star4" fill="#D3BC8E" transform="scale(0.45)" opacity="0.45"/></g>
