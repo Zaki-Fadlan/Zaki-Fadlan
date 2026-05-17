@@ -14,26 +14,15 @@
   <rect x="20" y="6" width="2.5" height="328" rx="1" fill="#D3BC8E"/>
   <rect x="837.5" y="6" width="2.5" height="328" rx="1" fill="#D3BC8E"/>
 
-  <!-- title bar -->
-  <rect x="20" y="6" width="820" height="38" rx="14" fill="#1B2240"/>
-  <rect x="20" y="28" width="820" height="16" fill="#1B2240"/>
-  <circle cx="44" cy="25" r="5" fill="#D3BC8E" opacity="0.9"/>
-  <circle cx="60" cy="25" r="5" fill="#C4A46C" opacity="0.7"/>
-  <circle cx="76" cy="25" r="5" fill="#8A7B5E" opacity="0.5"/>
-  <text x="430" y="30" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#8A8070" letter-spacing="2">PROFILE</text>
-
-  <g transform="translate(740,25)">
-    <use href="#star5" fill="#FFD93D" transform="translate(-24,0) scale(0.65)"/>
-    <use href="#star5" fill="#FFD93D" transform="translate(-12,0) scale(0.65)"/>
-    <use href="#star5" fill="#FFD93D" transform="translate(0,0) scale(0.65)"/>
-    <use href="#star5" fill="#FFD93D" transform="translate(12,0) scale(0.65)"/>
-    <use href="#star5" fill="#FFD93D" transform="translate(24,0) scale(0.65)"/>
-  </g>
-
-  <rect x="790" y="16" width="40" height="18" rx="9" fill="#D3BC8E" opacity="0.15"/>
-  <text x="810" y="29" text-anchor="middle" font-family="monospace" font-size="9" fill="#D3BC8E">5+ yr</text>
-
-  <line x1="40" y1="46" x2="820" y2="46" stroke="#3D3424" stroke-width="0.6"/>
+  <!-- section header style title -->
+  <rect x="20" y="6" width="820" height="42" rx="14" fill="#0e1525"/>
+  <rect x="20" y="6" width="820" height="1.5" rx="1" fill="#D3BC8E" opacity="0.5"/>
+  <rect x="20" y="46.5" width="820" height="1" rx="0.5" fill="#3D3424" opacity="0.6"/>
+  <g transform="translate(42,27)"><use href="#dia" fill="#D3BC8E" opacity="0.55" transform="scale(0.5)"/></g>
+  <g transform="translate(818,27)"><use href="#dia" fill="#D3BC8E" opacity="0.55" transform="scale(0.5)"/></g>
+  <line x1="50" y1="27" x2="370" y2="27" stroke="#D3BC8E" stroke-width="0.3" opacity="0.18"/>
+  <line x1="490" y1="27" x2="810" y2="27" stroke="#D3BC8E" stroke-width="0.3" opacity="0.18"/>
+  <text x="430" y="32" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#ECE5D8" letter-spacing="5">PROFILE</text>
 
   <!-- LEFT COLUMN -->
   <text x="50" y="68" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#C4A46C" letter-spacing="2">-- ABOUT --</text>
