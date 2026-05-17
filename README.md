@@ -1,10 +1,10 @@
 <!-- ═══════════════════════════════════════════════════════════ -->
 <!--   ✦ ZAKI FADLAN — GITHUB PROFILE README                   -->
-<!--   ✦ Aesthetic: Dark Terminal × Sakura × Shounen Arc       -->
+<!--   ✦ Aesthetic: Genshin Impact × Teyvat × Adventure        -->
 <!--   ✦ GitHub-safe: static SVG, no <style>/<script> tags     -->
 <!-- ═══════════════════════════════════════════════════════════ -->
 
-<!-- ░░░ HEADER SVG — static, no animations ░░░ -->
+<!-- ◆◆◆ HEADER — Wish Banner ◆◆◆ -->
 <div align="center">
 
 <img src="https://raw.githubusercontent.com/Zaki-Fadlan/Zaki-Fadlan/main/header.svg" width="100%" alt="header"/>
@@ -13,39 +13,39 @@
 
 ---
 
-<!-- ░░░ TYPING ░░░ -->
+<!-- ◆◆◆ TYPING ◆◆◆ -->
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=14&duration=2800&pause=900&color=FF9EC4&center=true&vCenter=true&width=640&lines=root%40zaki-fadlan%3A~%24+whoami;%3E+System+Engineer+%2F+IoT+%2F+Cloud+%2F+Backend;%3E+de+facto+Tech+Lead+%40+Luwes+Inovasi+Mandiri;%3E+Arc+Status%3A+⚔+Tech+Lead+Arc+[進行中];%3E+power_level%3A+OVER+9000+%E2%86%91;root%40zaki-fadlan%3A~%24+_)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=14&duration=2800&pause=900&color=D3BC8E&center=true&vCenter=true&width=640&lines=Traveler%40teyvat%3A~%24+whoami;%3E+System+Engineer+%2F+IoT+%2F+Cloud+%2F+Backend;%3E+Adventure+Rank%3A+55+%E2%80%94+World+Level+8;%3E+de+facto+Tech+Lead+%40+Luwes+Inovasi+Mandiri;%3E+Ad+Astra+Abyssosque+%E2%9C%A6;Traveler%40teyvat%3A~%24+_)](https://git.io/typing-svg)
 
 </div>
 
 ---
 
-<!-- ░░░ PROFILE CARD SVG ░░░ -->
+<!-- ◆◆◆ CHARACTER CARD ◆◆◆ -->
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Zaki-Fadlan/Zaki-Fadlan/main/profile_card.svg" width="100%" alt="profile-card"/>
+<img src="https://raw.githubusercontent.com/Zaki-Fadlan/Zaki-Fadlan/main/profile_card.svg" width="100%" alt="character-card"/>
 
 </div>
 
 ---
 
-<!-- ░░░ TROPHY ░░░ -->
+<!-- ◆◆◆ ACHIEVEMENTS ◆◆◆ -->
 <div align="center">
 
-### 🏆 「 実績解除 」 Achievements
+### ★ 「 実績 」 Achievements Unlocked
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=Zaki-Fadlan&theme=tokyonight&no-frame=true&no-bg=true&margin-w=6&column=6)](https://github.com/ryo-ma/github-profile-trophy)
+[![trophy](https://github-profile-trophy.vercel.app/?username=Zaki-Fadlan&theme=darkhub&no-frame=true&no-bg=true&margin-w=6&column=6)](https://github.com/ryo-ma/github-profile-trophy)
 
 </div>
 
 ---
 
-<!-- ░░░ TECH STACK ░░░ -->
+<!-- ◆◆◆ ELEMENTAL ARSENAL ◆◆◆ -->
 <div align="center">
 
-### ⚡ 「 武器庫 」 Tech Arsenal
+### ⚡ 「 元素共鳴 」 Elemental Arsenal
 
 **— Backend & API —**
 
@@ -63,10 +63,10 @@
 
 ---
 
-<!-- ░░░ STATS (generated via GitHub Actions — no external API) ░░░ -->
+<!-- ◆◆◆ ADVENTURER'S MEMO (generated via GitHub Actions) ◆◆◆ -->
 <div align="center">
 
-### 📊 「 戦闘力 」 Battle Stats
+### 📊 「 冒険者メモ 」 Adventurer's Memo
 
 <br/>
 
@@ -86,61 +86,61 @@
 
 ---
 
-<!-- ░░░ FEATURED QUESTS ░░░ -->
+<!-- ◆◆◆ COMMISSION LOG ◆◆◆ -->
 <div align="center">
 
-### 🚀 「 プロジェクト 」 Featured Quests
+### 🗡 「 任務 」 Commission Log
 
 </div>
 
 <br/>
 
 ```
- ✦ QUEST LOG ────────────────────────────────────────────────────────── ✦
+ ◆ COMMISSION LOG ──────────────────────────────────────────────── ◆
 
-  [⚡ COMPLETE]  IoT ATS-AMF ESP32
-                 Automatic Transfer Switch · AMF Logic · Real-time Monitor
-                 ★★★★★  Hardware × Software bridge (๑•̀ㅂ•́)و✧
+   [★ ARCHON   ]  IoT ATS-AMF ESP32
+                   Automatic Transfer Switch · AMF Logic · Real-time Monitor
+                   ★★★★★  Hardware × Software bridge — Quest Complete ✦
 
-  [🌩 ACTIVE  ]  Weather Forecasting Engine
-                 GRIB2 · Zarr · IDW Spatial Interpolation · PoP Calculator
-                 ★★★★☆  Meteorological data pipeline ~sugoi!
+   [⚡ WORLD   ]  Weather Forecasting Engine
+                   GRIB2 · Zarr · IDW Spatial Interpolation · PoP Calculator
+                   ★★★★☆  Meteorological data pipeline — In Progress
 
-  [🌾 ACTIVE  ]  AI Farm Dashboard
-                 Weather-powered agricultural intelligence system
-                 ★★★★☆  @Luwes Inovasi Mandiri  [internal]
+   [⚡ WORLD   ]  AI Farm Dashboard
+                   Weather-powered agricultural intelligence system
+                   ★★★★☆  @Luwes Inovasi Mandiri  [internal]
 
-  [🔐 ACTIVE  ]  Microservices Auth Stack
-                 NestJS · JWT · RBAC · Traefik API Gateway
-                 ★★★★★  Multi-service, role-based access (◕‿◕)
+   [⚡ WORLD   ]  Microservices Auth Stack
+                   NestJS · JWT · RBAC · Traefik API Gateway
+                   ★★★★★  Multi-service, role-based access
 
-  [📊 ACTIVE  ]  BRMS Broker Tracker
-                 BigQuery · Looker Studio · Dynamic period aggregation
-                 ★★★★☆  Performance reporting pipeline
+   [⚡ WORLD   ]  BRMS Broker Tracker
+                   BigQuery · Looker Studio · Dynamic period aggregation
+                   ★★★★☆  Performance reporting pipeline
 
- ✦ ──────────────────────────────────────────────────────────────────── ✦
+ ◆ ──────────────────────────────────────────────────────────────── ◆
 ```
 
 <div align="center">
 
-[![IoT ATS](https://github-readme-stats.vercel.app/api/pin/?username=Zaki-Fadlan&repo=IoT_ATS-AMF_ESP32&theme=tokyonight&hide_border=true&bg_color=0c0b1a&title_color=FF9EC4&text_color=B0C4FF&icon_color=DDA0DD)](https://github.com/Zaki-Fadlan/IoT_ATS-AMF_ESP32)
+[![IoT ATS](https://github-readme-stats.vercel.app/api/pin/?username=Zaki-Fadlan&repo=IoT_ATS-AMF_ESP32&theme=tokyonight&hide_border=true&bg_color=0e1525&title_color=D3BC8E&text_color=ECE5D8&icon_color=C4A46C)](https://github.com/Zaki-Fadlan/IoT_ATS-AMF_ESP32)
 &nbsp;
-[![Font Commerce](https://github-readme-stats.vercel.app/api/pin/?username=Zaki-Fadlan&repo=font_commerce&theme=tokyonight&hide_border=true&bg_color=0c0b1a&title_color=FF9EC4&text_color=B0C4FF&icon_color=DDA0DD)](https://github.com/Zaki-Fadlan/font_commerce)
+[![Font Commerce](https://github-readme-stats.vercel.app/api/pin/?username=Zaki-Fadlan&repo=font_commerce&theme=tokyonight&hide_border=true&bg_color=0e1525&title_color=D3BC8E&text_color=ECE5D8&icon_color=C4A46C)](https://github.com/Zaki-Fadlan/font_commerce)
 
 </div>
 
 ---
 
-<!-- ░░░ WATCHLIST ░░░ -->
+<!-- ◆◆◆ WATCHLIST ◆◆◆ -->
 <div align="center">
 
-### 📺 「 今期観てるもの 」 Watchlist
+### 📺 「 キャラ図鑑 」 Watchlist
 
 <br/>
 
-|  | 📺 Anime | 💡 Engineer Lesson |
+|  | 📺 Title | 💡 Lesson Learned |
 |:---:|:---|:---|
-| 🌸 | **Solo Leveling** | Grinding in silence → nanti shock semua orang |
+| ⚔️ | **Solo Leveling** | Grinding in silence → nanti shock semua orang |
 | ❄️ | **Frieren** | Mastery terlihat mudah dari luar... padahal tidak |
 | ⚽ | **Blue Lock** | Gantikan dirimu sebelum orang lain melakukannya |
 | 🍳 | **Dungeon Meshi** | Resource management di hostile environment |
@@ -151,10 +151,10 @@
 
 ---
 
-<!-- ░░░ SNAKE ░░░ -->
+<!-- ◆◆◆ EXPLORATION — SNAKE ◆◆◆ -->
 <div align="center">
 
-### 🐍 「 コントリビューション 」 Commit Snake
+### 🐍 「 探索 」 Exploration — Commit Snake
 
 <br/>
 
@@ -168,25 +168,25 @@
 
 ---
 
-<!-- ░░░ CONTACT ░░░ -->
+<!-- ◆◆◆ ADVENTURERS' GUILD ◆◆◆ -->
 <div align="center">
 
-### 📡 「 コンタクト 」 Find Me
+### 📡 「 冒険者ギルド 」 Adventurers' Guild
 
 <br/>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0c0b1a?style=for-the-badge&logo=linkedin&logoColor=B0C4FF&labelColor=0c0b1a)](https://www.linkedin.com/in/zaki-fadlan)
-[![GitHub](https://img.shields.io/badge/GitHub-0c0b1a?style=for-the-badge&logo=github&logoColor=DDA0DD&labelColor=0c0b1a)](https://github.com/Zaki-Fadlan)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0e1525?style=for-the-badge&logo=linkedin&logoColor=4FC1E9&labelColor=0e1525)](https://www.linkedin.com/in/zaki-fadlan)
+[![GitHub](https://img.shields.io/badge/GitHub-0e1525?style=for-the-badge&logo=github&logoColor=D3BC8E&labelColor=0e1525)](https://github.com/Zaki-Fadlan)
 
 <br/>
 
-![Profile Views](https://komarev.com/ghpvc/?username=Zaki-Fadlan&color=FF9EC4&style=flat-square&label=✦+visitors)
+![Profile Views](https://komarev.com/ghpvc/?username=Zaki-Fadlan&color=D3BC8E&style=flat-square&label=✦+travelers)
 
 </div>
 
 ---
 
-<!-- ░░░ FOOTER SVG ░░░ -->
+<!-- ◆◆◆ FOOTER ◆◆◆ -->
 <div align="center">
 
 <img src="https://raw.githubusercontent.com/Zaki-Fadlan/Zaki-Fadlan/main/footer.svg" width="100%" alt="footer"/>

@@ -1,97 +1,124 @@
-<svg width="860" height="310" viewBox="0 0 860 310" xmlns="http://www.w3.org/2000/svg">
+<svg width="860" height="340" viewBox="0 0 860 340" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <style>
       @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
+      @keyframes pulse { 0%, 100% { opacity: 0.5; } 50% { opacity: 1; } }
       .cur { animation: blink 1.1s step-end infinite; }
+      .pls { animation: pulse 2.5s ease-in-out infinite; }
     </style>
+    <path id="dia" d="M0,-5 L5,0 L0,5 L-5,0Z"/>
+    <path id="star5" d="M0,-6 L1.4,-1.9 L6.3,-1.9 L2.3,0.7 L3.5,5.2 L0,2.5 L-3.5,5.2 L-2.3,0.7 L-6.3,-1.9 L-1.4,-1.9Z"/>
   </defs>
 
-  <!-- card bg -->
-  <rect x="20" y="6" width="820" height="298" rx="16" fill="#0f0e1a" stroke="#2a1842" stroke-width=".8"/>
-  <!-- left accent -->
-  <rect x="20" y="6"   width="3" height="298" rx="1" fill="#FF9EC4"/>
-  <!-- right accent -->
-  <rect x="837" y="6"  width="3" height="298" rx="1" fill="#98E4FF"/>
+  <!-- main card background -->
+  <rect x="20" y="6" width="820" height="328" rx="14" fill="#0e1525" stroke="#3D3424" stroke-width="0.8"/>
+  <!-- left gold accent -->
+  <rect x="20" y="6" width="2.5" height="328" rx="1" fill="#D3BC8E"/>
+  <!-- right gold accent -->
+  <rect x="837.5" y="6" width="2.5" height="328" rx="1" fill="#D3BC8E"/>
 
-  <!-- title bar -->
-  <rect x="20" y="6" width="820" height="36" rx="14" fill="#1a1436"/>
-  <rect x="20" y="26" width="820" height="16" fill="#1a1436"/>
+  <!-- title bar background -->
+  <rect x="20" y="6" width="820" height="38" rx="14" fill="#1B2240"/>
+  <rect x="20" y="28" width="820" height="16" fill="#1B2240"/>
 
-  <!-- traffic lights -->
-  <circle cx="44" cy="24" r="5.5" fill="#FF9EC4" opacity=".9"/>
-  <circle cx="60" cy="24" r="5.5" fill="#DDA0DD" opacity=".9"/>
-  <circle cx="76" cy="24" r="5.5" fill="#98E4FF" opacity=".9"/>
+  <!-- title bar dots (gold-themed) -->
+  <circle cx="44" cy="25" r="5" fill="#D3BC8E" opacity="0.9"/>
+  <circle cx="60" cy="25" r="5" fill="#C4A46C" opacity="0.7"/>
+  <circle cx="76" cy="25" r="5" fill="#8A7B5E" opacity="0.5"/>
 
   <!-- title text -->
-  <text x="430" y="29" text-anchor="middle" font-family="monospace" font-size="10" fill="#554466" letter-spacing="2">✦  IDENTITY FILE  ✦</text>
-  <text x="820" y="29" text-anchor="end" font-family="monospace" font-size="10" fill="#443355">v2.5.0</text>
+  <text x="430" y="30" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#8A8070" letter-spacing="2">◆  CHARACTER FILE  ◆</text>
 
-  <!-- divider -->
-  <line x1="40" y1="44" x2="820" y2="44" stroke="#2a1842" stroke-width=".7"/>
+  <!-- 5-star rating -->
+  <g transform="translate(740,25)">
+    <use href="#star5" fill="#FFD93D" transform="translate(-24,0) scale(0.65)"/>
+    <use href="#star5" fill="#FFD93D" transform="translate(-12,0) scale(0.65)"/>
+    <use href="#star5" fill="#FFD93D" transform="translate(0,0) scale(0.65)"/>
+    <use href="#star5" fill="#FFD93D" transform="translate(12,0) scale(0.65)"/>
+    <use href="#star5" fill="#FFD93D" transform="translate(24,0) scale(0.65)"/>
+  </g>
 
-  <!-- LEFT COLUMN header -->
-  <text x="50" y="66" font-family="monospace" font-size="10" fill="#554466" letter-spacing="1.5">── PERSONAL ──</text>
+  <!-- AR badge -->
+  <rect x="790" y="16" width="40" height="18" rx="9" fill="#D3BC8E" opacity="0.15"/>
+  <text x="810" y="29" text-anchor="middle" font-family="monospace" font-size="9" fill="#D3BC8E">AR 55</text>
 
-  <!-- LEFT rows -->
-  <text x="50"  y="90"  font-family="monospace" font-size="11" fill="#554466">名前</text>
-  <text x="140" y="90"  font-family="monospace" font-size="11" fill="#ffffff" font-weight="bold">Zaki Fadlan</text>
+  <!-- divider under title -->
+  <line x1="40" y1="46" x2="820" y2="46" stroke="#3D3424" stroke-width="0.6"/>
 
-  <text x="50"  y="110" font-family="monospace" font-size="11" fill="#554466">ハンドル</text>
-  <text x="140" y="110" font-family="monospace" font-size="11" fill="#FF9EC4">@Zaki-Fadlan</text>
+  <!-- ═══ LEFT COLUMN ═══ -->
+  <text x="50" y="68" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#C4A46C" letter-spacing="2">── ATTRIBUTES ──</text>
 
-  <text x="50"  y="130" font-family="monospace" font-size="11" fill="#554466">出身</text>
-  <text x="140" y="130" font-family="monospace" font-size="11" fill="#B0C4FF">Depok, West Java 🇮🇩</text>
+  <!-- rows -->
+  <text x="50" y="94" font-family="monospace" font-size="11" fill="#8A8070">名前</text>
+  <text x="140" y="94" font-family="monospace" font-size="11.5" fill="#ECE5D8" font-weight="bold">Zaki Fadlan</text>
 
-  <text x="50"  y="150" font-family="monospace" font-size="11" fill="#554466">会社</text>
-  <text x="140" y="150" font-family="monospace" font-size="11" fill="#DDA0DD">Luwes Inovasi Mandiri</text>
+  <text x="50" y="116" font-family="monospace" font-size="11" fill="#8A8070">ハンドル</text>
+  <text x="140" y="116" font-family="monospace" font-size="11" fill="#D3BC8E">@Zaki-Fadlan</text>
 
-  <text x="50"  y="170" font-family="monospace" font-size="11" fill="#554466">役割</text>
-  <text x="140" y="170" font-family="monospace" font-size="11" fill="#DDA0DD">System Engineer</text>
-  <text x="148" y="185" font-family="monospace" font-size="10" fill="#7755aa">└─ de facto Tech Lead 👑</text>
+  <text x="50" y="138" font-family="monospace" font-size="11" fill="#8A8070">出身</text>
+  <text x="140" y="138" font-family="monospace" font-size="11" fill="#87CEEB">Depok, West Java 🇮🇩</text>
 
-  <text x="50"  y="207" font-family="monospace" font-size="11" fill="#554466">経験</text>
-  <text x="140" y="207" font-family="monospace" font-size="11" fill="#B0C4FF">5+ tahun</text>
+  <text x="50" y="160" font-family="monospace" font-size="11" fill="#8A8070">会社</text>
+  <text x="140" y="160" font-family="monospace" font-size="11" fill="#C4A46C">Luwes Inovasi Mandiri</text>
 
-  <text x="50"  y="227" font-family="monospace" font-size="11" fill="#554466">status</text>
-  <text x="140" y="227" font-family="monospace" font-size="11" fill="#98E4FF">☕ ngoding + 📺 anime</text>
+  <text x="50" y="182" font-family="monospace" font-size="11" fill="#8A8070">役割</text>
+  <text x="140" y="182" font-family="monospace" font-size="11" fill="#C4A46C">System Engineer</text>
+  <text x="148" y="198" font-family="monospace" font-size="10" fill="#74C2A8">└─ de facto Tech Lead 👑</text>
 
-  <text x="50"  y="247" font-family="monospace" font-size="11" fill="#554466">sleep</text>
-  <text x="140" y="247" font-family="monospace" font-size="11" fill="#FF6688">404 Not Found</text>
-  <text x="258" y="247" font-family="monospace" font-size="11" fill="#FF6688" class="cur">_</text>
+  <text x="50" y="222" font-family="monospace" font-size="11" fill="#8A8070">経験</text>
+  <text x="140" y="222" font-family="monospace" font-size="11" fill="#87CEEB">5+ tahun</text>
+
+  <text x="50" y="244" font-family="monospace" font-size="11" fill="#8A8070">status</text>
+  <text x="140" y="244" font-family="monospace" font-size="11" fill="#4FC1E9">☕ ngoding + 📺 anime</text>
+
+  <text x="50" y="266" font-family="monospace" font-size="11" fill="#8A8070">sleep</text>
+  <text x="140" y="266" font-family="monospace" font-size="11" fill="#EF7938">404 Not Found</text>
+  <text x="260" y="266" font-family="monospace" font-size="11" fill="#EF7938" class="cur">_</text>
 
   <!-- vertical divider -->
-  <line x1="440" y1="48" x2="440" y2="292" stroke="#2a1842" stroke-width=".7"/>
+  <line x1="440" y1="50" x2="440" y2="305" stroke="#3D3424" stroke-width="0.6"/>
 
-  <!-- RIGHT COLUMN header -->
-  <text x="460" y="66" font-family="monospace" font-size="10" fill="#554466" letter-spacing="1.5">── QUEST STATUS ──</text>
+  <!-- ═══ RIGHT COLUMN ═══ -->
+  <text x="460" y="68" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#C4A46C" letter-spacing="2">── COMMISSIONS ──</text>
 
-  <!-- quest pills -->
-  <rect x="460" y="74"  width="360" height="26" rx="7" fill="#1a1436"/>
-  <text x="472" y="91"  font-family="monospace" font-size="10.5" fill="#FF9EC4">⚔️  Tech Lead Arc</text>
-  <rect x="752" y="78"  width="58" height="18" rx="9" fill="#0d3020"/>
-  <text x="781" y="91"  text-anchor="middle" font-family="monospace" font-size="9" fill="#39FF14">進行中</text>
+  <!-- commission pills -->
+  <rect x="460" y="78" width="360" height="28" rx="8" fill="#1B2240"/>
+  <text x="472" y="96" font-family="monospace" font-size="10.5" fill="#D3BC8E">⚔️  Tech Lead Arc</text>
+  <rect x="750" y="82" width="60" height="20" rx="10" fill="#1a3a20"/>
+  <text x="780" y="96" text-anchor="middle" font-family="monospace" font-size="9" fill="#74C2A8">進行中</text>
 
-  <rect x="460" y="108" width="360" height="26" rx="7" fill="#1a1436"/>
-  <text x="472" y="125" font-family="monospace" font-size="10.5" fill="#98E4FF">📡  Weather Forecast Engine</text>
-  <rect x="752" y="112" width="58" height="18" rx="9" fill="#0d3020"/>
-  <text x="781" y="125" text-anchor="middle" font-family="monospace" font-size="9" fill="#39FF14">稼働中</text>
+  <rect x="460" y="114" width="360" height="28" rx="8" fill="#1B2240"/>
+  <text x="472" y="132" font-family="monospace" font-size="10.5" fill="#4FC1E9">📡  Weather Engine</text>
+  <rect x="750" y="118" width="60" height="20" rx="10" fill="#1a3a20"/>
+  <text x="780" y="132" text-anchor="middle" font-family="monospace" font-size="9" fill="#74C2A8">稼働中</text>
 
-  <rect x="460" y="142" width="360" height="26" rx="7" fill="#1a1436"/>
-  <text x="472" y="159" font-family="monospace" font-size="10.5" fill="#98E4FF">🌾  AI Farm Dashboard</text>
-  <rect x="752" y="146" width="58" height="18" rx="9" fill="#0d3020"/>
-  <text x="781" y="159" text-anchor="middle" font-family="monospace" font-size="9" fill="#39FF14">稼働中</text>
+  <rect x="460" y="150" width="360" height="28" rx="8" fill="#1B2240"/>
+  <text x="472" y="168" font-family="monospace" font-size="10.5" fill="#4FC1E9">🌾  AI Farm Dashboard</text>
+  <rect x="750" y="154" width="60" height="20" rx="10" fill="#1a3a20"/>
+  <text x="780" y="168" text-anchor="middle" font-family="monospace" font-size="9" fill="#74C2A8">稼働中</text>
 
-  <rect x="460" y="176" width="360" height="26" rx="7" fill="#1a1436"/>
-  <text x="472" y="193" font-family="monospace" font-size="10.5" fill="#98E4FF">🔐  Microservices Auth Stack</text>
-  <rect x="752" y="180" width="58" height="18" rx="9" fill="#0d3020"/>
-  <text x="781" y="193" text-anchor="middle" font-family="monospace" font-size="9" fill="#39FF14">稼働中</text>
+  <rect x="460" y="186" width="360" height="28" rx="8" fill="#1B2240"/>
+  <text x="472" y="204" font-family="monospace" font-size="10.5" fill="#4FC1E9">🔐  Auth Microservices</text>
+  <rect x="750" y="190" width="60" height="20" rx="10" fill="#1a3a20"/>
+  <text x="780" y="204" text-anchor="middle" font-family="monospace" font-size="9" fill="#74C2A8">稼働中</text>
 
-  <rect x="460" y="210" width="360" height="26" rx="7" fill="#1a1436"/>
-  <text x="472" y="227" font-family="monospace" font-size="10.5" fill="#554466">🗡️  S-Rank Engineer</text>
-  <rect x="752" y="214" width="58" height="18" rx="9" fill="#2a0d0d"/>
-  <text x="781" y="227" text-anchor="middle" font-family="monospace" font-size="9" fill="#FF4455">未解除</text>
+  <rect x="460" y="222" width="360" height="28" rx="8" fill="#1B2240"/>
+  <text x="472" y="240" font-family="monospace" font-size="10.5" fill="#4FC1E9">📊  BRMS Tracker</text>
+  <rect x="750" y="226" width="60" height="20" rx="10" fill="#1a3a20"/>
+  <text x="780" y="240" text-anchor="middle" font-family="monospace" font-size="9" fill="#74C2A8">稼働中</text>
 
-  <!-- motto -->
-  <line x1="40" y1="270" x2="820" y2="270" stroke="#2a1842" stroke-width=".7"/>
-  <text x="430" y="290" text-anchor="middle" font-family="Georgia, serif" font-size="13" fill="#DDA0DD" font-style="italic" letter-spacing="1">「 諦めたらそこで試合終了ですよ 」</text>
+  <rect x="460" y="258" width="360" height="28" rx="8" fill="#1B2240"/>
+  <text x="472" y="276" font-family="monospace" font-size="10.5" fill="#8A8070">🗡️  S-Rank Engineer</text>
+  <rect x="750" y="262" width="60" height="20" rx="10" fill="#3a1a1a"/>
+  <text x="780" y="276" text-anchor="middle" font-family="monospace" font-size="9" fill="#EF7938">未解除</text>
+
+  <!-- bottom divider -->
+  <line x1="40" y1="300" x2="820" y2="300" stroke="#3D3424" stroke-width="0.6"/>
+
+  <!-- motto with diamond -->
+  <g transform="translate(430,316)"><use href="#dia" fill="#D3BC8E" opacity="0.4" transform="scale(0.35)"/></g>
+  <text x="430" y="324" text-anchor="middle" font-family="Georgia, serif" font-size="12" fill="#C4A46C" font-style="italic" letter-spacing="1.2">「 Ad Astra Abyssosque — 星と深淵を目指せ 」</text>
+
+  <!-- vision element marker (geo-style diamond) -->
+  <g class="pls" transform="translate(430,56)"><use href="#dia" fill="#D3BC8E" opacity="0.5" transform="scale(0.4)"/></g>
 </svg>

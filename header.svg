@@ -1,97 +1,101 @@
 <svg width="860" height="200" viewBox="0 0 860 200" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <style>
-      @keyframes petal {
-        0%   { opacity: 0; transform: translateY(-8px) rotate(0deg); }
-        60%  { opacity: 1; }
-        100% { opacity: .55; transform: translateY(8px) rotate(32deg); }
+      @keyframes twinkle {
+        0%, 100% { opacity: 0.15; }
+        50% { opacity: 1; }
       }
-      @keyframes shimmer {
-        0%, 100% { opacity: .35; }
-        50%       { opacity: 1; }
+      @keyframes glow {
+        0%, 100% { opacity: 0.3; }
+        50% { opacity: 0.75; }
       }
-      .p1 { animation: petal 3.6s ease-in-out infinite; }
-      .p2 { animation: petal 3.6s ease-in-out .7s infinite; }
-      .p3 { animation: petal 3.6s ease-in-out 1.4s infinite; }
-      .p4 { animation: petal 3.6s ease-in-out 2.1s infinite; }
-      .p5 { animation: petal 3.6s ease-in-out 2.8s infinite; }
-      .sh  { animation: shimmer 2.6s ease-in-out infinite; }
-      .sh2 { animation: shimmer 2.6s ease-in-out .85s infinite; }
-      .sh3 { animation: shimmer 2.6s ease-in-out 1.7s infinite; }
+      .t1 { animation: twinkle 3.2s ease-in-out infinite; }
+      .t2 { animation: twinkle 3.2s ease-in-out 0.6s infinite; }
+      .t3 { animation: twinkle 3.2s ease-in-out 1.2s infinite; }
+      .t4 { animation: twinkle 3.2s ease-in-out 1.8s infinite; }
+      .t5 { animation: twinkle 3.2s ease-in-out 2.4s infinite; }
+      .t6 { animation: twinkle 3.2s ease-in-out 3.0s infinite; }
+      .gl  { animation: glow 4s ease-in-out infinite; }
+      .gl2 { animation: glow 4s ease-in-out 2s infinite; }
     </style>
-    <path id="pk" d="M0,-9 C3.5,-9 8,-4.5 8,0 C8,5.5 3.5,10 0,10 C-3.5,10 -8,5.5 -8,0 C-8,-4.5 -3.5,-9 0,-9Z"/>
-    <path id="sp" d="M0,-6 L1.2,-1.2 L6,0 L1.2,1.2 L0,6 L-1.2,1.2 L-6,0 L-1.2,-1.2Z"/>
+    <path id="star4" d="M0,-8 L1.5,-1.5 L8,0 L1.5,1.5 L0,8 L-1.5,1.5 L-8,0 L-1.5,-1.5Z"/>
+    <path id="dia" d="M0,-5 L5,0 L0,5 L-5,0Z"/>
   </defs>
 
-  <!-- base -->
-  <rect width="860" height="200" rx="16" fill="#0c0b1a"/>
-  <!-- top accent -->
-  <rect width="860" height="3" rx="1" fill="#FF9EC4"/>
-  <!-- bottom accent -->
-  <rect y="197" width="860" height="3" rx="1" fill="#98E4FF"/>
-  <!-- left side -->
-  <rect width="3" height="200" rx="1" fill="#FF9EC4" opacity=".5"/>
-  <!-- right side -->
-  <rect x="857" width="3" height="200" rx="1" fill="#98E4FF" opacity=".5"/>
+  <!-- deep background -->
+  <rect width="860" height="200" rx="14" fill="#0e1525"/>
+  <!-- subtle side washes -->
+  <rect width="260" height="200" fill="#162040" opacity="0.25" rx="14"/>
+  <rect x="600" width="260" height="200" fill="#162040" opacity="0.25" rx="14"/>
 
-  <!-- color wash left -->
-  <rect width="240" height="200" fill="#FF9EC4" opacity=".04" rx="16"/>
-  <!-- color wash right -->
-  <rect x="620" width="240" height="200" fill="#98E4FF" opacity=".04" rx="16"/>
+  <!-- gold borders -->
+  <rect width="860" height="2" fill="#D3BC8E"/>
+  <rect y="198" width="860" height="2" fill="#D3BC8E"/>
+  <rect width="2" height="200" fill="#D3BC8E" opacity="0.35"/>
+  <rect x="858" width="2" height="200" fill="#D3BC8E" opacity="0.35"/>
 
-  <!-- scanlines -->
-  <rect y="33"  width="860" height=".5" fill="#fff" opacity=".025"/>
-  <rect y="66"  width="860" height=".5" fill="#fff" opacity=".025"/>
-  <rect y="99"  width="860" height=".5" fill="#fff" opacity=".025"/>
-  <rect y="132" width="860" height=".5" fill="#fff" opacity=".025"/>
-  <rect y="165" width="860" height=".5" fill="#fff" opacity=".025"/>
+  <!-- corner diamonds -->
+  <g transform="translate(22,20)"><use href="#dia" fill="#D3BC8E" opacity="0.7" transform="scale(0.7)"/></g>
+  <g transform="translate(838,20)"><use href="#dia" fill="#D3BC8E" opacity="0.7" transform="scale(0.7)"/></g>
+  <g transform="translate(22,180)"><use href="#dia" fill="#D3BC8E" opacity="0.7" transform="scale(0.7)"/></g>
+  <g transform="translate(838,180)"><use href="#dia" fill="#D3BC8E" opacity="0.7" transform="scale(0.7)"/></g>
 
-  <!-- corner bracket TL -->
-  <path d="M24,13 L13,13 L13,24" fill="none" stroke="#FF9EC4" stroke-width="1.8"/>
-  <!-- corner bracket TR -->
-  <path d="M836,13 L847,13 L847,24" fill="none" stroke="#FF9EC4" stroke-width="1.8"/>
-  <!-- corner bracket BL -->
-  <path d="M24,187 L13,187 L13,176" fill="none" stroke="#98E4FF" stroke-width="1.8"/>
-  <!-- corner bracket BR -->
-  <path d="M836,187 L847,187 L847,176" fill="none" stroke="#98E4FF" stroke-width="1.8"/>
+  <!-- decorative lines between corners -->
+  <line x1="30" y1="20" x2="830" y2="20" stroke="#D3BC8E" stroke-width="0.4" opacity="0.25"/>
+  <line x1="30" y1="180" x2="830" y2="180" stroke="#D3BC8E" stroke-width="0.4" opacity="0.25"/>
+  <line x1="22" y1="28" x2="22" y2="172" stroke="#D3BC8E" stroke-width="0.4" opacity="0.2"/>
+  <line x1="838" y1="28" x2="838" y2="172" stroke="#D3BC8E" stroke-width="0.4" opacity="0.2"/>
 
-  <!-- traffic dots TL -->
-  <circle cx="56" cy="22" r="2.5" fill="#FF9EC4" opacity=".8"/>
-  <circle cx="67" cy="22" r="2.5" fill="#DDA0DD" opacity=".6"/>
-  <circle cx="78" cy="22" r="2.5" fill="#B0C4FF" opacity=".4"/>
-  <!-- traffic dots TR -->
-  <circle cx="804" cy="22" r="2.5" fill="#98E4FF" opacity=".8"/>
-  <circle cx="793" cy="22" r="2.5" fill="#DDA0DD" opacity=".6"/>
-  <circle cx="782" cy="22" r="2.5" fill="#B0C4FF" opacity=".4"/>
+  <!-- constellation left -->
+  <circle cx="100" cy="55" r="1.5" fill="#FFD93D" class="t1"/>
+  <circle cx="145" cy="42" r="1" fill="#FFD93D" class="t3"/>
+  <circle cx="160" cy="78" r="1.2" fill="#FFD93D" class="t2"/>
+  <circle cx="110" cy="90" r="0.8" fill="#FFD93D" class="t5"/>
+  <line x1="100" y1="55" x2="145" y2="42" stroke="#FFD93D" stroke-width="0.3" opacity="0.15"/>
+  <line x1="145" y1="42" x2="160" y2="78" stroke="#FFD93D" stroke-width="0.3" opacity="0.15"/>
+  <line x1="100" y1="55" x2="110" y2="90" stroke="#FFD93D" stroke-width="0.3" opacity="0.15"/>
+
+  <!-- constellation right -->
+  <circle cx="720" cy="48" r="1.5" fill="#FFD93D" class="t4"/>
+  <circle cx="755" cy="72" r="1" fill="#FFD93D" class="t6"/>
+  <circle cx="775" cy="42" r="1.2" fill="#FFD93D" class="t1"/>
+  <circle cx="740" cy="95" r="0.8" fill="#FFD93D" class="t3"/>
+  <line x1="720" y1="48" x2="775" y2="42" stroke="#FFD93D" stroke-width="0.3" opacity="0.15"/>
+  <line x1="775" y1="42" x2="755" y2="72" stroke="#FFD93D" stroke-width="0.3" opacity="0.15"/>
+  <line x1="755" y1="72" x2="740" y2="95" stroke="#FFD93D" stroke-width="0.3" opacity="0.15"/>
+
+  <!-- scattered stars -->
+  <circle cx="75" cy="145" r="0.7" fill="#fff" class="t3" opacity="0.3"/>
+  <circle cx="290" cy="35" r="0.7" fill="#fff" class="t5" opacity="0.25"/>
+  <circle cx="550" cy="172" r="0.7" fill="#fff" class="t1" opacity="0.25"/>
+  <circle cx="790" cy="155" r="0.7" fill="#fff" class="t4" opacity="0.3"/>
+  <circle cx="380" cy="178" r="0.6" fill="#fff" class="t2" opacity="0.2"/>
+  <circle cx="640" cy="28" r="0.6" fill="#fff" class="t6" opacity="0.2"/>
+  <circle cx="200" cy="165" r="0.5" fill="#fff" class="t4" opacity="0.2"/>
+  <circle cx="500" cy="25" r="0.5" fill="#fff" class="t1" opacity="0.2"/>
 
   <!-- kanji watermark -->
-  <text x="430" y="136" text-anchor="middle" font-family="serif" font-size="130" fill="#fff" opacity=".022" font-weight="900">技</text>
+  <text x="430" y="145" text-anchor="middle" font-family="serif" font-size="140" fill="#D3BC8E" opacity="0.025" font-weight="900">冒</text>
 
   <!-- main name -->
-  <text x="430" y="97" text-anchor="middle" font-family="Georgia, serif" font-size="56" font-weight="900" fill="#fff" letter-spacing="5">Zaki Fadlan</text>
+  <text x="430" y="88" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="52" font-weight="700" fill="#ECE5D8" letter-spacing="6">Zaki Fadlan</text>
 
-  <!-- name underline -->
-  <line x1="230" y1="107" x2="630" y2="107" stroke="#FF9EC4" stroke-width=".8" opacity=".4"/>
-  <circle cx="230" cy="107" r="3" fill="#FF9EC4" opacity=".65"/>
-  <circle cx="630" cy="107" r="3" fill="#98E4FF" opacity=".65"/>
+  <!-- diamond separator -->
+  <line x1="240" y1="102" x2="418" y2="102" stroke="#D3BC8E" stroke-width="0.7" opacity="0.45"/>
+  <line x1="442" y1="102" x2="620" y2="102" stroke="#D3BC8E" stroke-width="0.7" opacity="0.45"/>
+  <g transform="translate(430,102)"><use href="#dia" fill="#D3BC8E" opacity="0.75" transform="scale(0.45)"/></g>
+  <circle cx="240" cy="102" r="2" fill="#D3BC8E" opacity="0.5"/>
+  <circle cx="620" cy="102" r="2" fill="#D3BC8E" opacity="0.5"/>
 
   <!-- subtitle -->
-  <text x="430" y="136" text-anchor="middle" font-family="monospace" font-size="13" fill="#DDA0DD" letter-spacing="3">✦  System Engineer  ·  IoT  ·  Cloud  ·  Backend  ✦</text>
+  <text x="430" y="130" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="13" fill="#C4A46C" letter-spacing="3">✦  System Engineer  ·  IoT  ·  Cloud  ·  Backend  ✦</text>
 
-  <!-- company line -->
-  <text x="430" y="168" text-anchor="middle" font-family="monospace" font-size="11" fill="#443355" letter-spacing="1.5">de facto Tech Lead  @  Luwes Inovasi Mandiri  ·  Depok, West Java 🇮🇩</text>
+  <!-- company -->
+  <text x="430" y="162" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#5A6B8A" letter-spacing="1.5">Tech Lead  ·  Luwes Inovasi Mandiri  ·  Depok, Indonesia 🇮🇩</text>
 
-  <!-- petals -->
-  <g class="p1" transform="translate(100,72)"><use href="#pk" fill="#FF9EC4" opacity=".75"/></g>
-  <g class="p2" transform="translate(168,44)"><use href="#pk" fill="#FFB7C5" opacity=".6" transform="scale(.75) rotate(45)"/></g>
-  <g class="p3" transform="translate(718,70)"><use href="#pk" fill="#DDA0DD" opacity=".65" transform="rotate(-35)"/></g>
-  <g class="p4" transform="translate(665,38)"><use href="#pk" fill="#FF9EC4" opacity=".5" transform="scale(.8) rotate(20)"/></g>
-  <g class="p5" transform="translate(255,155)"><use href="#pk" fill="#FFB7C5" opacity=".4" transform="scale(.6) rotate(-25)"/></g>
-
-  <!-- sparkles -->
-  <g class="sh"  transform="translate(142,148)"><use href="#sp" fill="#FFD700" transform="scale(.9)" opacity=".6"/></g>
-  <g class="sh2" transform="translate(748,148)"><use href="#sp" fill="#98E4FF" transform="scale(.8)" opacity=".6"/></g>
-  <g class="sh3" transform="translate(430,24)"> <use href="#sp" fill="#DDA0DD" transform="scale(.7)" opacity=".55"/></g>
-  <g class="sh"  transform="translate(368,160)"><use href="#sp" fill="#FF9EC4" transform="scale(.6)" opacity=".5"/></g>
-  <g class="sh2" transform="translate(492,160)"><use href="#sp" fill="#B0C4FF" transform="scale(.6)" opacity=".5"/></g>
+  <!-- 4-point sparkles -->
+  <g class="gl" transform="translate(108,105)"><use href="#star4" fill="#D3BC8E" transform="scale(0.45)" opacity="0.45"/></g>
+  <g class="gl2" transform="translate(752,105)"><use href="#star4" fill="#D3BC8E" transform="scale(0.45)" opacity="0.45"/></g>
+  <g class="t2" transform="translate(175,155)"><use href="#star4" fill="#FFD93D" transform="scale(0.3)" opacity="0.35"/></g>
+  <g class="t5" transform="translate(685,155)"><use href="#star4" fill="#FFD93D" transform="scale(0.3)" opacity="0.35"/></g>
 </svg>
