@@ -1,0 +1,97 @@
+<svg width="860" height="200" viewBox="0 0 860 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @keyframes petal {
+        0%   { opacity: 0; transform: translateY(-8px) rotate(0deg); }
+        60%  { opacity: 1; }
+        100% { opacity: .55; transform: translateY(8px) rotate(32deg); }
+      }
+      @keyframes shimmer {
+        0%, 100% { opacity: .35; }
+        50%       { opacity: 1; }
+      }
+      .p1 { animation: petal 3.6s ease-in-out infinite; }
+      .p2 { animation: petal 3.6s ease-in-out .7s infinite; }
+      .p3 { animation: petal 3.6s ease-in-out 1.4s infinite; }
+      .p4 { animation: petal 3.6s ease-in-out 2.1s infinite; }
+      .p5 { animation: petal 3.6s ease-in-out 2.8s infinite; }
+      .sh  { animation: shimmer 2.6s ease-in-out infinite; }
+      .sh2 { animation: shimmer 2.6s ease-in-out .85s infinite; }
+      .sh3 { animation: shimmer 2.6s ease-in-out 1.7s infinite; }
+    </style>
+    <path id="pk" d="M0,-9 C3.5,-9 8,-4.5 8,0 C8,5.5 3.5,10 0,10 C-3.5,10 -8,5.5 -8,0 C-8,-4.5 -3.5,-9 0,-9Z"/>
+    <path id="sp" d="M0,-6 L1.2,-1.2 L6,0 L1.2,1.2 L0,6 L-1.2,1.2 L-6,0 L-1.2,-1.2Z"/>
+  </defs>
+
+  <!-- base -->
+  <rect width="860" height="200" rx="16" fill="#0c0b1a"/>
+  <!-- top accent -->
+  <rect width="860" height="3" rx="1" fill="#FF9EC4"/>
+  <!-- bottom accent -->
+  <rect y="197" width="860" height="3" rx="1" fill="#98E4FF"/>
+  <!-- left side -->
+  <rect width="3" height="200" rx="1" fill="#FF9EC4" opacity=".5"/>
+  <!-- right side -->
+  <rect x="857" width="3" height="200" rx="1" fill="#98E4FF" opacity=".5"/>
+
+  <!-- color wash left -->
+  <rect width="240" height="200" fill="#FF9EC4" opacity=".04" rx="16"/>
+  <!-- color wash right -->
+  <rect x="620" width="240" height="200" fill="#98E4FF" opacity=".04" rx="16"/>
+
+  <!-- scanlines -->
+  <rect y="33"  width="860" height=".5" fill="#fff" opacity=".025"/>
+  <rect y="66"  width="860" height=".5" fill="#fff" opacity=".025"/>
+  <rect y="99"  width="860" height=".5" fill="#fff" opacity=".025"/>
+  <rect y="132" width="860" height=".5" fill="#fff" opacity=".025"/>
+  <rect y="165" width="860" height=".5" fill="#fff" opacity=".025"/>
+
+  <!-- corner bracket TL -->
+  <path d="M24,13 L13,13 L13,24" fill="none" stroke="#FF9EC4" stroke-width="1.8"/>
+  <!-- corner bracket TR -->
+  <path d="M836,13 L847,13 L847,24" fill="none" stroke="#FF9EC4" stroke-width="1.8"/>
+  <!-- corner bracket BL -->
+  <path d="M24,187 L13,187 L13,176" fill="none" stroke="#98E4FF" stroke-width="1.8"/>
+  <!-- corner bracket BR -->
+  <path d="M836,187 L847,187 L847,176" fill="none" stroke="#98E4FF" stroke-width="1.8"/>
+
+  <!-- traffic dots TL -->
+  <circle cx="56" cy="22" r="2.5" fill="#FF9EC4" opacity=".8"/>
+  <circle cx="67" cy="22" r="2.5" fill="#DDA0DD" opacity=".6"/>
+  <circle cx="78" cy="22" r="2.5" fill="#B0C4FF" opacity=".4"/>
+  <!-- traffic dots TR -->
+  <circle cx="804" cy="22" r="2.5" fill="#98E4FF" opacity=".8"/>
+  <circle cx="793" cy="22" r="2.5" fill="#DDA0DD" opacity=".6"/>
+  <circle cx="782" cy="22" r="2.5" fill="#B0C4FF" opacity=".4"/>
+
+  <!-- kanji watermark -->
+  <text x="430" y="136" text-anchor="middle" font-family="serif" font-size="130" fill="#fff" opacity=".022" font-weight="900">技</text>
+
+  <!-- main name -->
+  <text x="430" y="97" text-anchor="middle" font-family="Georgia, serif" font-size="56" font-weight="900" fill="#fff" letter-spacing="5">Zaki Fadlan</text>
+
+  <!-- name underline -->
+  <line x1="230" y1="107" x2="630" y2="107" stroke="#FF9EC4" stroke-width=".8" opacity=".4"/>
+  <circle cx="230" cy="107" r="3" fill="#FF9EC4" opacity=".65"/>
+  <circle cx="630" cy="107" r="3" fill="#98E4FF" opacity=".65"/>
+
+  <!-- subtitle -->
+  <text x="430" y="136" text-anchor="middle" font-family="monospace" font-size="13" fill="#DDA0DD" letter-spacing="3">✦  System Engineer  ·  IoT  ·  Cloud  ·  Backend  ✦</text>
+
+  <!-- company line -->
+  <text x="430" y="168" text-anchor="middle" font-family="monospace" font-size="11" fill="#443355" letter-spacing="1.5">de facto Tech Lead  @  Luwes Inovasi Mandiri  ·  Depok, West Java 🇮🇩</text>
+
+  <!-- petals -->
+  <g class="p1" transform="translate(100,72)"><use href="#pk" fill="#FF9EC4" opacity=".75"/></g>
+  <g class="p2" transform="translate(168,44)"><use href="#pk" fill="#FFB7C5" opacity=".6" transform="scale(.75) rotate(45)"/></g>
+  <g class="p3" transform="translate(718,70)"><use href="#pk" fill="#DDA0DD" opacity=".65" transform="rotate(-35)"/></g>
+  <g class="p4" transform="translate(665,38)"><use href="#pk" fill="#FF9EC4" opacity=".5" transform="scale(.8) rotate(20)"/></g>
+  <g class="p5" transform="translate(255,155)"><use href="#pk" fill="#FFB7C5" opacity=".4" transform="scale(.6) rotate(-25)"/></g>
+
+  <!-- sparkles -->
+  <g class="sh"  transform="translate(142,148)"><use href="#sp" fill="#FFD700" transform="scale(.9)" opacity=".6"/></g>
+  <g class="sh2" transform="translate(748,148)"><use href="#sp" fill="#98E4FF" transform="scale(.8)" opacity=".6"/></g>
+  <g class="sh3" transform="translate(430,24)"> <use href="#sp" fill="#DDA0DD" transform="scale(.7)" opacity=".55"/></g>
+  <g class="sh"  transform="translate(368,160)"><use href="#sp" fill="#FF9EC4" transform="scale(.6)" opacity=".5"/></g>
+  <g class="sh2" transform="translate(492,160)"><use href="#sp" fill="#B0C4FF" transform="scale(.6)" opacity=".5"/></g>
+</svg>
