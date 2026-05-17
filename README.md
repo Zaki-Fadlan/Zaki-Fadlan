@@ -22,55 +22,11 @@
 
 ---
 
-<!-- ░░░ PROFILE CARD — two code blocks, GitHub-safe ░░░ -->
+<!-- ░░░ PROFILE CARD SVG ░░░ -->
 <div align="center">
-<table>
-<tr>
-<td width="50%" valign="top">
 
-```yaml
-# ╔══════════════════════════════╗
-# ║  ✦ IDENTITY FILE  ✦         ║
-# ╚══════════════════════════════╝
+<img src="https://raw.githubusercontent.com/Zaki-Fadlan/Zaki-Fadlan/main/profile_card.svg" width="100%" alt="profile-card"/>
 
-名前    : Zaki Fadlan
-handle  : @Zaki-Fadlan
-出身    : Depok, West Java 🇮🇩
-会社    : Luwes Inovasi Mandiri
-役割    : System Engineer
-          └─ de facto Tech Lead 👑
-経験    : 5+ tahun
-status  : ☕ ngoding + 📺 anime
-sleep   : 404 Not Found 💤
-
-motto: >
-  諦めたらそこで
-  試合終了ですよ。
-```
-
-</td>
-<td width="50%" valign="top">
-
-```yaml
-# ╔══════════════════════════════╗
-# ║  ✦ QUEST STATUS  ✦          ║
-# ╚══════════════════════════════╝
-
-⚔️  Tech Lead Arc      : [進行中] ✅
-📡  Weather Engine     : [稼働中] ✅
-🌾  AI Farm Dashboard  : [稼働中] ✅
-🔐  Auth Microservices : [稼働中] ✅
-📊  BRMS Tracker       : [稼働中] ✅
-🗡️  S-Rank Engineer   : [未解除] 🔒
-
-power_level : OVER 9000 📈
-arc         : ⚔️ Tech Lead Arc
-              [IN PROGRESS...]
-```
-
-</td>
-</tr>
-</table>
 </div>
 
 ---
@@ -226,19 +182,9 @@ arc         : ⚔️ Tech Lead Arc
 
 ---
 
-<!-- ░░░ FOOTER ░░░ -->
+<!-- ░░░ FOOTER SVG ░░░ -->
 <div align="center">
 
-```
- ╔═══════════════════════════════════════════════════════════╗
- ║                                                           ║
- ║   「 諦めたらそこで試合終了ですよ。」                       ║
- ║    If you give up, that's where the game ends.            ║
- ║                                                           ║
- ║   ☕ ngoding  ·  📺 anime  ·  🚀 deploy                  ║
- ║   またね！ (｡◕‿◕｡)ﾉ                                      ║
- ║                                                           ║
- ╚═══════════════════════════════════════════════════════════╝
-```
+<img src="https://raw.githubusercontent.com/Zaki-Fadlan/Zaki-Fadlan/main/footer.svg" width="100%" alt="footer"/>
 
 </div>
