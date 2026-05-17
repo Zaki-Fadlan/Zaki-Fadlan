@@ -60,7 +60,7 @@
 <img src="https://raw.githubusercontent.com/Zaki-Fadlan/Zaki-Fadlan/main/section_contact.svg" width="100%" alt="contact"/>
 <br/><br/>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0e1525?style=for-the-badge&logo=linkedin&logoColor=4FC1E9&labelColor=0e1525)](https://www.linkedin.com/in/zaki-fadlan)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0e1525?style=for-the-badge&logo=linkedin&logoColor=4FC1E9&labelColor=0e1525)](https://www.linkedin.com/in/zakifadlan/?locale=en)
 [![GitHub](https://img.shields.io/badge/GitHub-0e1525?style=for-the-badge&logo=github&logoColor=D3BC8E&labelColor=0e1525)](https://github.com/Zaki-Fadlan)
 
 <br/>
