@@ -1,11 +1,244 @@
-<h1 align="center">Hi 👋, I'm Zaki Fadlan 
-<!--   </h1> -->
-<!--   <a href="https://www.linkedin.com/in/zakifadlan/" target="_blank">
-    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/zaki-fadlan/" height="30" width="40" />
-  </a> -->
-</h1>
-<!-- <p align="center"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Zaki-Fadlan&theme=tokyonight&show_icons=true&hide_border=false&layout=compact" alt="zaki-fadlan" /></p> -->
+<!-- ═══════════════════════════════════════════════════════════ -->
+<!--   ✦ ZAKI FADLAN — GITHUB PROFILE README                   -->
+<!--   ✦ Aesthetic: Dark Terminal × Sakura × Shounen Arc       -->
+<!--   ✦ GitHub-safe: static SVG, no <style>/<script> tags     -->
+<!-- ═══════════════════════════════════════════════════════════ -->
 
-<!-- <a href="https://www.facebook.com/zaki.f03" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="https://www.facebook.com/zaki.f03" height="30" width="40" /></a>
-<a href="https://www.instagram.com/zackyfdlnn/" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="https://www.instagram.com/zackyfdlnn/" height="30" width="40" /></a>
-<a href="https://api.whatsapp.com/send?phone=6289616862757" target="_blank"><img align="center" src="https://github.com/Zaki-Fadlan/Zaki-Fadlan/blob/main/whatsapp-icon-seeklogo.com.svg" alt="https://www.instagram.com/zackyfdlnn/" height="30" width="40" /></a> -->
+<!-- ░░░ HEADER SVG — static, no animations ░░░ -->
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/Zaki-Fadlan/Zaki-Fadlan/main/header.svg" width="100%" alt="header"/>
+
+</div>
+
+---
+
+<!-- ░░░ TYPING ░░░ -->
+<div align="center">
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=14&duration=2800&pause=900&color=FF9EC4&center=true&vCenter=true&width=640&lines=root%40zaki-fadlan%3A~%24+whoami;%3E+System+Engineer+%2F+IoT+%2F+Cloud+%2F+Backend;%3E+de+facto+Tech+Lead+%40+Luwes+Inovasi+Mandiri;%3E+Arc+Status%3A+⚔+Tech+Lead+Arc+[進行中];%3E+power_level%3A+OVER+9000+%E2%86%91;root%40zaki-fadlan%3A~%24+_)](https://git.io/typing-svg)
+
+</div>
+
+---
+
+<!-- ░░░ PROFILE CARD — two code blocks, GitHub-safe ░░░ -->
+<div align="center">
+<table>
+<tr>
+<td width="50%" valign="top">
+
+```yaml
+# ╔══════════════════════════════╗
+# ║  ✦ IDENTITY FILE  ✦         ║
+# ╚══════════════════════════════╝
+
+名前    : Zaki Fadlan
+handle  : @Zaki-Fadlan
+出身    : Depok, West Java 🇮🇩
+会社    : Luwes Inovasi Mandiri
+役割    : System Engineer
+          └─ de facto Tech Lead 👑
+経験    : 5+ tahun
+status  : ☕ ngoding + 📺 anime
+sleep   : 404 Not Found 💤
+
+motto: >
+  諦めたらそこで
+  試合終了ですよ。
+```
+
+</td>
+<td width="50%" valign="top">
+
+```yaml
+# ╔══════════════════════════════╗
+# ║  ✦ QUEST STATUS  ✦          ║
+# ╚══════════════════════════════╝
+
+⚔️  Tech Lead Arc      : [進行中] ✅
+📡  Weather Engine     : [稼働中] ✅
+🌾  AI Farm Dashboard  : [稼働中] ✅
+🔐  Auth Microservices : [稼働中] ✅
+📊  BRMS Tracker       : [稼働中] ✅
+🗡️  S-Rank Engineer   : [未解除] 🔒
+
+power_level : OVER 9000 📈
+arc         : ⚔️ Tech Lead Arc
+              [IN PROGRESS...]
+```
+
+</td>
+</tr>
+</table>
+</div>
+
+---
+
+<!-- ░░░ TROPHY ░░░ -->
+<div align="center">
+
+### 🏆 「 実績解除 」 Achievements
+
+[![trophy](https://github-profile-trophy.vercel.app/?username=Zaki-Fadlan&theme=tokyonight&no-frame=true&no-bg=true&margin-w=6&column=6)](https://github.com/ryo-ma/github-profile-trophy)
+
+</div>
+
+---
+
+<!-- ░░░ TECH STACK ░░░ -->
+<div align="center">
+
+### ⚡ 「 武器庫 」 Tech Arsenal
+
+**— Backend & API —**
+
+[![Skills](https://skillicons.dev/icons?i=python,fastapi,nestjs,ts,js,php,java,cpp&theme=dark)](https://skillicons.dev)
+
+**— Cloud & DevOps —**
+
+[![Skills](https://skillicons.dev/icons?i=gcp,docker,linux,git,nginx,postgres,mongodb,grafana&theme=dark)](https://skillicons.dev)
+
+**— IoT & Frontend —**
+
+[![Skills](https://skillicons.dev/icons?i=arduino,raspberrypi,react,vscode,postman,github&theme=dark)](https://skillicons.dev)
+
+</div>
+
+---
+
+<!-- ░░░ STATS ░░░ -->
+<div align="center">
+
+### 📊 「 戦闘力 」 Battle Stats
+
+<br/>
+
+<img height="175em" src="https://github-readme-stats.vercel.app/api?username=Zaki-Fadlan&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0c0b1a&title_color=FF9EC4&icon_color=DDA0DD&text_color=B0C4FF&ring_color=FFB7C5"/>
+&nbsp;
+<img height="175em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Zaki-Fadlan&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0c0b1a&title_color=FF9EC4&text_color=B0C4FF"/>
+
+<br/>
+
+[![GitHub Streak](https://streak-stats.demolab.com/?user=Zaki-Fadlan&theme=tokyonight-duo&hide_border=true&background=0c0b1a&stroke=DDA0DD&ring=FF9EC4&fire=FFB7C5&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=DDA0DD&sideLabels=B0C4FF&dates=554466)](.)
+
+</div>
+
+---
+
+<!-- ░░░ FEATURED QUESTS ░░░ -->
+<div align="center">
+
+### 🚀 「 プロジェクト 」 Featured Quests
+
+</div>
+
+<br/>
+
+```
+ ✦ QUEST LOG ────────────────────────────────────────────────────────── ✦
+
+  [⚡ COMPLETE]  IoT ATS-AMF ESP32
+                 Automatic Transfer Switch · AMF Logic · Real-time Monitor
+                 ★★★★★  Hardware × Software bridge (๑•̀ㅂ•́)و✧
+
+  [🌩 ACTIVE  ]  Weather Forecasting Engine
+                 GRIB2 · Zarr · IDW Spatial Interpolation · PoP Calculator
+                 ★★★★☆  Meteorological data pipeline ~sugoi!
+
+  [🌾 ACTIVE  ]  AI Farm Dashboard
+                 Weather-powered agricultural intelligence system
+                 ★★★★☆  @Luwes Inovasi Mandiri  [internal]
+
+  [🔐 ACTIVE  ]  Microservices Auth Stack
+                 NestJS · JWT · RBAC · Traefik API Gateway
+                 ★★★★★  Multi-service, role-based access (◕‿◕)
+
+  [📊 ACTIVE  ]  BRMS Broker Tracker
+                 BigQuery · Looker Studio · Dynamic period aggregation
+                 ★★★★☆  Performance reporting pipeline
+
+ ✦ ──────────────────────────────────────────────────────────────────── ✦
+```
+
+<div align="center">
+
+[![IoT ATS](https://github-readme-stats.vercel.app/api/pin/?username=Zaki-Fadlan&repo=IoT_ATS-AMF_ESP32&theme=tokyonight&hide_border=true&bg_color=0c0b1a&title_color=FF9EC4&text_color=B0C4FF&icon_color=DDA0DD)](https://github.com/Zaki-Fadlan/IoT_ATS-AMF_ESP32)
+&nbsp;
+[![Font Commerce](https://github-readme-stats.vercel.app/api/pin/?username=Zaki-Fadlan&repo=font_commerce&theme=tokyonight&hide_border=true&bg_color=0c0b1a&title_color=FF9EC4&text_color=B0C4FF&icon_color=DDA0DD)](https://github.com/Zaki-Fadlan/font_commerce)
+
+</div>
+
+---
+
+<!-- ░░░ WATCHLIST ░░░ -->
+<div align="center">
+
+### 📺 「 今期観てるもの 」 Watchlist
+
+<br/>
+
+|  | 📺 Anime | 💡 Engineer Lesson |
+|:---:|:---|:---|
+| 🌸 | **Solo Leveling** | Grinding in silence → nanti shock semua orang |
+| ❄️ | **Frieren** | Mastery terlihat mudah dari luar... padahal tidak |
+| ⚽ | **Blue Lock** | Gantikan dirimu sebelum orang lain melakukannya |
+| 🍳 | **Dungeon Meshi** | Resource management di hostile environment |
+| 🗡️ | **The Beginning After The End** | Always prep for the next arc |
+| 📖 | **Omniscient Reader** | Knowing the meta = the real cheat code |
+
+</div>
+
+---
+
+<!-- ░░░ SNAKE ░░░ -->
+<div align="center">
+
+### 🐍 「 コントリビューション 」 Commit Snake
+
+<br/>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Zaki-Fadlan/Zaki-Fadlan/output/github-contribution-grid-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Zaki-Fadlan/Zaki-Fadlan/output/github-contribution-grid-snake.svg"/>
+  <img alt="github-snake" src="https://raw.githubusercontent.com/Zaki-Fadlan/Zaki-Fadlan/output/github-contribution-grid-snake-dark.svg"/>
+</picture>
+
+</div>
+
+---
+
+<!-- ░░░ CONTACT ░░░ -->
+<div align="center">
+
+### 📡 「 コンタクト 」 Find Me
+
+<br/>
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0c0b1a?style=for-the-badge&logo=linkedin&logoColor=B0C4FF&labelColor=0c0b1a)](https://www.linkedin.com/in/zaki-fadlan)
+[![GitHub](https://img.shields.io/badge/GitHub-0c0b1a?style=for-the-badge&logo=github&logoColor=DDA0DD&labelColor=0c0b1a)](https://github.com/Zaki-Fadlan)
+
+<br/>
+
+![Profile Views](https://komarev.com/ghpvc/?username=Zaki-Fadlan&color=FF9EC4&style=flat-square&label=✦+visitors)
+
+</div>
+
+---
+
+<!-- ░░░ FOOTER ░░░ -->
+<div align="center">
+
+```
+ ╔═══════════════════════════════════════════════════════════╗
+ ║                                                           ║
+ ║   「 諦めたらそこで試合終了ですよ。」                       ║
+ ║    If you give up, that's where the game ends.            ║
+ ║                                                           ║
+ ║   ☕ ngoding  ·  📺 anime  ·  🚀 deploy                  ║
+ ║   またね！ (｡◕‿◕｡)ﾉ                                      ║
+ ║                                                           ║
+ ╚═══════════════════════════════════════════════════════════╝
+```
+
+</div>
